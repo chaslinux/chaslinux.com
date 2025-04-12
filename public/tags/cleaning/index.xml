@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cleaning on Chaslinux&#39;s Blog</title>
+    <link>/tags/cleaning/</link>
+    <description>Recent content in Cleaning on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Aug 2024 15:27:14 -0400</lastBuildDate>
+    <atom:link href="/tags/cleaning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple way to clean a Lenovo ThinkPad Case</title>
+      <link>/posts/simple_way_to_clean_a_lenovo_thinkpad_case/</link>
+      <pubDate>Fri, 16 Aug 2024 15:27:14 -0400</pubDate>
+      <guid>/posts/simple_way_to_clean_a_lenovo_thinkpad_case/</guid>
+      <description>&lt;h3 id=&#34;past&#34;&gt;Past&lt;/h3&gt;
+&lt;p&gt;Isopropyl is a great way to clean up a lot of plastic, but I found that while it’s helpful for removing grime, caked on stickers (Goo Gone), and other crud, it doesn’t always leave a nice finish. A few years back a volunteer at the Computer Recycling Project mentioned interning at a small computer store where they used Mr. Clean Magic Erasers to clean-up the top of ThinkPads. True to what he said, Mr. Clean Magic Erasers do seem to be a pretty good job on the top of ThinkPads.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

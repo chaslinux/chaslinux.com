@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Asteroids on Chaslinux&#39;s Blog</title>
+    <link>/tags/asteroids/</link>
+    <description>Recent content in Asteroids on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Jul 2023 18:54:33 -0400</lastBuildDate>
+    <atom:link href="/tags/asteroids/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fasteroids - An Asteroids-like game for Linux and Windows</title>
+      <link>/posts/fasteroids_an_asteroids_like_game_for_linux_and_windows/</link>
+      <pubDate>Fri, 07 Jul 2023 18:54:33 -0400</pubDate>
+      <guid>/posts/fasteroids_an_asteroids_like_game_for_linux_and_windows/</guid>
+      <description>&lt;h3 id=&#34;reviving-an-old-project&#34;&gt;Reviving an old project&lt;/h3&gt;
+&lt;p&gt;Today I realized that, since redoing this web site, I still haven’t added any information about the game I made back in 2017-2020. Recently I revived Fasteroids, and made some changes to both simplify the game, but also with the idea that the game should be able to scale to 4k in the near future.&lt;/p&gt;
+&lt;p&gt;Before I ramble on more, you can download Fasteroids for Linux or Windows from:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

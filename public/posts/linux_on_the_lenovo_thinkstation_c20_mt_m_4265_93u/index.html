@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u) | Chaslinux&#39;s Blog</title>
+<meta name="keywords" content="Computer Recycling, Computer Refurbishing, Linux Mint, Xubuntu, Hardware, Lenovo">
+<meta name="description" content="
+Note: This is an older post, reposted from the old web site. The project has since mostly switched to Linux Mint XFCE
+versions 21.3 (Virginia) and 22.1 (Xia). We still have Xubuntu 24.04.2 on our PXE server, but only install it on request.
+Our checklist has evolved and we&rsquo;ve separated some steps into other checklists.
+See my github repositories for more info.
+Workstation class hardware at a deeply discounted price
+Every now and then the Computer Recycling Project at The Working Centre gets a really interesting piece of hardware donated. As a not-for-profit project, most of our equipment is aimed at people who are lower income. This generally translates into lower prices, even for some equipment others would list for a lot more. But that doesn’t mean the project just wipes the machines, installs Linux, and dumps the equipment on a sales shelf… often equipment requires a little, or a lot more work.">
+<meta name="author" content="">
+<link rel="canonical" href="/posts/linux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/posts/linux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="/posts/linux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u/">
+  <meta property="og:site_name" content="Chaslinux&#39;s Blog">
+  <meta property="og:title" content="Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u)">
+  <meta property="og:description" content=" Note: This is an older post, reposted from the old web site. The project has since mostly switched to Linux Mint XFCE versions 21.3 (Virginia) and 22.1 (Xia). We still have Xubuntu 24.04.2 on our PXE server, but only install it on request. Our checklist has evolved and we’ve separated some steps into other checklists. See my github repositories for more info.
+Workstation class hardware at a deeply discounted price Every now and then the Computer Recycling Project at The Working Centre gets a really interesting piece of hardware donated. As a not-for-profit project, most of our equipment is aimed at people who are lower income. This generally translates into lower prices, even for some equipment others would list for a lot more. But that doesn’t mean the project just wipes the machines, installs Linux, and dumps the equipment on a sales shelf… often equipment requires a little, or a lot more work.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-07-09T18:38:13-04:00">
+    <meta property="article:modified_time" content="2024-07-09T18:38:13-04:00">
+    <meta property="article:tag" content="Computer Recycling">
+    <meta property="article:tag" content="Computer Refurbishing">
+    <meta property="article:tag" content="Linux Mint">
+    <meta property="article:tag" content="Xubuntu">
+    <meta property="article:tag" content="Hardware">
+    <meta property="article:tag" content="Lenovo">
+    <meta property="og:image" content="/img/lenovo_thinkstation_c20.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/img/lenovo_thinkstation_c20.webp">
+<meta name="twitter:title" content="Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u)">
+<meta name="twitter:description" content="
+Note: This is an older post, reposted from the old web site. The project has since mostly switched to Linux Mint XFCE
+versions 21.3 (Virginia) and 22.1 (Xia). We still have Xubuntu 24.04.2 on our PXE server, but only install it on request.
+Our checklist has evolved and we&rsquo;ve separated some steps into other checklists.
+See my github repositories for more info.
+Workstation class hardware at a deeply discounted price
+Every now and then the Computer Recycling Project at The Working Centre gets a really interesting piece of hardware donated. As a not-for-profit project, most of our equipment is aimed at people who are lower income. This generally translates into lower prices, even for some equipment others would list for a lot more. But that doesn’t mean the project just wipes the machines, installs Linux, and dumps the equipment on a sales shelf… often equipment requires a little, or a lot more work.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/posts/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u)",
+      "item": "/posts/linux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u)",
+  "name": "Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u)",
+  "description": " Note: This is an older post, reposted from the old web site. The project has since mostly switched to Linux Mint XFCE versions 21.3 (Virginia) and 22.1 (Xia). We still have Xubuntu 24.04.2 on our PXE server, but only install it on request. Our checklist has evolved and we\u0026rsquo;ve separated some steps into other checklists. See my github repositories for more info.\nWorkstation class hardware at a deeply discounted price Every now and then the Computer Recycling Project at The Working Centre gets a really interesting piece of hardware donated. As a not-for-profit project, most of our equipment is aimed at people who are lower income. This generally translates into lower prices, even for some equipment others would list for a lot more. But that doesn’t mean the project just wipes the machines, installs Linux, and dumps the equipment on a sales shelf… often equipment requires a little, or a lot more work.\n",
+  "keywords": [
+    "Computer Recycling", "Computer Refurbishing", "Linux Mint", "Xubuntu", "Hardware", "Lenovo"
+  ],
+  "articleBody": " Note: This is an older post, reposted from the old web site. The project has since mostly switched to Linux Mint XFCE versions 21.3 (Virginia) and 22.1 (Xia). We still have Xubuntu 24.04.2 on our PXE server, but only install it on request. Our checklist has evolved and we’ve separated some steps into other checklists. See my github repositories for more info.\nWorkstation class hardware at a deeply discounted price Every now and then the Computer Recycling Project at The Working Centre gets a really interesting piece of hardware donated. As a not-for-profit project, most of our equipment is aimed at people who are lower income. This generally translates into lower prices, even for some equipment others would list for a lot more. But that doesn’t mean the project just wipes the machines, installs Linux, and dumps the equipment on a sales shelf… often equipment requires a little, or a lot more work.\nBeyond the checklist When Computer Recycling receives a computer, we normally either remove the hard drive and replace it with an already wiped drive, or wipe the drive on the spot in the case of solid state storage. Every computer that gets refurbished at Computer Recycling goes through a frequently changing checklist that’s broken down into a number of categories:\nComputer Externals : the steps in this stage are mostly to determine if the computer is worth building. First Boot : at this stage we turn on the computer, boot to our network server, and check that all fans are working. Computer Specifications : using software on our PXE network boot server we check to make sure the system meets our minimum build specifications (currently 3rd gen i-Series with 8GB RAM). Memory Test : all computers undergo a RAM test using Memtest86+ version 6.2. Once all RAM passes we move on to the next step. Any failed RAM sticks are replaced and the system is retested. Drive Testing : it’s not enough for us to just wipe a drive, we always test, wipe, and re-test after a wipe. Amy drives with reallocated sectors are replaced. This means we sometimes scrap potentially usable drives, but better safe than sorry. OS Installation : at this point we PXE boot and install Xubuntu Linux 22.04 from our network installer. Post-Install Setup : at this step we use a script we pull from github to install extra software we think would appeal to average computer users. Things like DVD playback, sound, webcams, and USB ports are also tested at this stage. Quality Assurance : Someone else takes over at this stage and goes through a separate checklist to ensure the computer is in good working order. Sales Preparation : This is the final stage where the computer will be priced, a barcode and information sticker attached to the computer, and the computer information goes into our Point-Of-Sale (POS) system. This is a very generalized list of steps, the actual process is a fair bit longer, and we sometimes run into issues… The Lenovo ThinkStation C20 is one of those times where we ran into a minor issue and needed to reconsider which version of Linux we were installing on the machine.\nThe Lenovo ThinkStation C20 The Lenovo ThinkStation C20 is a very old machine by today’s standards – it appears to have come out Q4 of 2010. The machine we received had a single XEON E5620 CPU (4 cores, 8 threads) running at 2.4GHz. One of the things that makes this workstation interesting is there is a spot for a second XEON CPU on the motherboard (along with another 3 RAM slots – 3 for each CPU). I’m not sure if the machine had the standard install of 4GB of DDR3 and we upgraded that to 8GB, or the person who donated the machine upgraded it to 8GB. Either way the machine currently has a single 8GB stick installed. The graphics card is the original NVidia Quadro 2000 card that would have come with this workstation. The Quadro 2000 ended up being a pain-point for building the machine, but more on this later.\nNormally the ThinkStation C20 would have come with a 300GB 10,000 RPM hard drive. We always pull drives out of desktops to be batch wiped with other drives. Finding good 10,000 RPM hard drives is difficult these days. And while most of the world has moved on to solid state drives, we don’t see a lot of SSDs at Computer Recycling. We do see a lot of 500GB hard drives, so that’s what we put in the C20. Sadly, we chose a WD Blue drive. This wouldn’t have been my first choice, a WD black drive would have been a better choice, but the blue drive tested fine and was what ended up being put in.\nIt’s possible the Computer Recycling project might have another XEON E5620 CPU lying around, but even if we found one, we don’t have the heat sink needed to cool the extra CPU. So for now, we’re just using the single XEON processor.\nInitial Xubuntu Install One of our volunteers initially installed Xubuntu 22.04 on the C20. Xubuntu appeared to work great, but one of the benchmarks we run (Xonotic game), was really low (39.54 FPS for high detail at 1024×768). Checking the driver I noticed that they were using the open source driver, rather than the available (Nvidia-390) proprietary driver. Our new checklists mention checking for proprietary drivers using the drivers program in Xubuntu/Linux Mint, but the checklist this volunteer was working from was older and didn’t mention this step.\nHowever, even if the volunteer followed the newer checklist, they still would have failed to install the driver. It turns out that the proprietary driver fails to install in Xubuntu 22.04 (and Linux Mint with a newer kernel). After a bit of digging I discovered that the NVidia-390 driver needs an old kernel. The kernel in Xubuntu 22.04 is too new to support the old proprietary NVidia driver.\nInstalling Linux Mint While I fully expect whomever buys this machine won’t use it as a gaming machine (it’s 2010 remember), squeezing a few extra FPS out would be nice. Knowing that Linux Mint XFCE (21.3 – Virginia) uses an older kernel I decided to try installing Linux Mint to see if the proprietary NVidia driver would work. Yes, it did. And it turned out that it was significantly better, 172.20 FPS (vs the 39.54 FPS using the open source driver).\nFig. 1 - Linux Mint\nBefore people go slagging the open source driver developers, the bad performance of this old NVidia card is not their fault. Traditionally, NVidia hasn’t been very helpful to the open source community (thus the infamous Linus Torvalds cursing NVidia video).\nWhile NVidia has a page full of open source projects, I am sure they’re not interested in spending the time to update ancient drivers like this to work with modern versions of Linux. It’s a bit sad, as a machine like this C20 could still be a very useful workstation, especially with the max 192GB of RAM, and an SSD.\nAfter installing the NVidia driver I also ran Timeshift, and set up a restore point for the computer. I figured I would try updating the kernel on Linux Mint, because they make it dead simple to do so. Sadly this resulted in the machine not booting to the desktop, as it had done with Xubuntu. This wasn’t an issue because I was able to just switch to a virtual terminal (CTRL + ALT + F1), login, and run:\ntimeshift --restore Timeshift then displays the restore points you’ve set up and lets you choose a point to restore to. I restored back to the kernel the proprietary driver worked on, and voila, the machine was ready to go, back at the desktop. This also confirmed that the issue is compiling the source against a newer kernel.\nFig. 2 - Timeshift\nConsidered changing video cards I also considered changing the video card in the C20 to an ASUS branded AMD HD7750, which scores about 47% better on synthetic tests than the Quadro 2000, but sadly the height of that card is about 10 mm too high to fit in the case properly. The other video cards we have that don’t have a PCIe power connector are all much older, so the Quadro 2000 ended up being the best fit. Something like a low profile GTX 1030 might be the cheapest price/performance card that would actually fit in this machine, but then again we’re dealing with NVidia.\nStill More Work To Do There’s still a bit more work to do on this system. The lid has a lot of very deep scratches on it, so I plan to take it out an spray paint it matte black to get it looking similar to the rest of the system. It’s a neat machine with potential. Once done we’ll likely sell it for around $50 CDN, but for the moment it’s back in our to be refurbished area until we can clean it up a bit more.\n",
+  "wordCount" : "1514",
+  "inLanguage": "en",
+  "image":"/img/lenovo_thinkstation_c20.webp","datePublished": "2024-07-09T18:38:13-04:00",
+  "dateModified": "2024-07-09T18:38:13-04:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/posts/linux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Chaslinux's Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title="Chaslinux&#39;s Blog (Alt + H)">Chaslinux&#39;s Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u)
+    </h1>
+    <div class="post-meta"><span title='2024-07-09 18:38:13 -0400 EDT'>July 9, 2024</span>&nbsp;·&nbsp;8 min
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <a href="/img/lenovo_thinkstation_c20.webp" target="_blank" rel="noopener noreferrer">
+        <img loading="eager" src="/img/lenovo_thinkstation_c20.webp" alt="Lenovo ThinkStation C20">
+        </a>
+        <figcaption>Lenovo ThinkStation C20 (released Q4 of 2010)</figcaption>
+</figure>
+  <div class="post-content"><blockquote>
+<p><strong>Note:</strong> This is an older post, reposted from the old web site. The project has since mostly switched to Linux Mint XFCE
+versions 21.3 (Virginia) and 22.1 (Xia). We still have Xubuntu 24.04.2 on our PXE server, but only install it on request.
+Our checklist has evolved and we&rsquo;ve separated some steps into other checklists.
+See my <a href="https://github.com/chaslinux">github repositories</a> for more info.</p></blockquote>
+<h3 id="workstation-class-hardware-at-a-deeply-discounted-price">Workstation class hardware at a deeply discounted price<a hidden class="anchor" aria-hidden="true" href="#workstation-class-hardware-at-a-deeply-discounted-price">#</a></h3>
+<p>Every now and then the <a href="https://www.theworkingcentre.org/cr/">Computer Recycling Project</a> at The Working Centre gets a really interesting piece of hardware donated. As a not-for-profit project, most of our equipment is aimed at people who are lower income. This generally translates into lower prices, even for some equipment others would list for a lot more. But that doesn’t mean the project just wipes the machines, installs Linux, and dumps the equipment on a sales shelf… often equipment requires a little, or a lot more work.</p>
+<h3 id="beyond-the-checklist">Beyond the checklist<a hidden class="anchor" aria-hidden="true" href="#beyond-the-checklist">#</a></h3>
+<p>When Computer Recycling receives a computer, we normally either remove the hard drive and replace it with an already wiped drive, or wipe the drive on the spot in the case of solid state storage. Every computer that gets refurbished at Computer Recycling goes through a frequently changing <a href="https://github.com/chaslinux/laptop-build-checklist">checklist</a> that’s broken down into a number of categories:</p>
+<ol>
+<li>Computer Externals : the steps in this stage are mostly to determine if the computer is worth building.</li>
+<li>First Boot : at this stage we turn on the computer, boot to our network server, and check that all fans are working.</li>
+<li>Computer Specifications : using software on our PXE network boot server we check to make sure the system meets our minimum build specifications (currently 3rd gen i-Series with 8GB RAM).</li>
+<li>Memory Test : all computers undergo a RAM test using Memtest86+ version 6.2. Once all RAM passes we move on to the next step. Any failed RAM sticks are replaced and the system is retested.</li>
+<li>Drive Testing : it’s not enough for us to just wipe a drive, we always test, wipe, and re-test after a wipe. Amy drives with reallocated sectors are replaced. This means we sometimes scrap potentially usable drives, but better safe than sorry.</li>
+<li>OS Installation : at this point we PXE boot and install Xubuntu Linux 22.04 from our network installer.</li>
+<li>Post-Install Setup : at this step we use a script we pull from github to install extra software we think would appeal to average computer users. Things like DVD playback, sound, webcams, and USB ports are also tested at this stage.</li>
+<li>Quality Assurance : Someone else takes over at this stage and goes through a separate checklist to ensure the computer is in good working order.</li>
+<li>Sales Preparation : This is the final stage where the computer will be priced, a barcode and information sticker attached to the computer, and the computer information goes into our Point-Of-Sale (POS) system.</li>
+</ol>
+<p>This is a very generalized list of steps, the actual process is a fair bit longer, and we sometimes run into issues… The Lenovo ThinkStation C20 is one of those times where we ran into a minor issue and needed to reconsider which version of Linux we were installing on the machine.</p>
+<h3 id="the-lenovo-thinkstation-c20">The Lenovo ThinkStation C20<a hidden class="anchor" aria-hidden="true" href="#the-lenovo-thinkstation-c20">#</a></h3>
+<p>The Lenovo ThinkStation C20 is a very old machine by today’s standards – it appears to have come out Q4 of 2010. The machine we received had a single XEON E5620 CPU (4 cores, 8 threads) running at 2.4GHz. One of the things that makes this workstation interesting is there is a spot for a second XEON CPU on the motherboard (along with another 3 RAM slots – 3 for each CPU). I’m not sure if the machine had the standard install of 4GB of DDR3 and we upgraded that to 8GB, or the person who donated the machine upgraded it to 8GB. Either way the machine currently has a single 8GB stick installed. The graphics card is the original <a href="https://www.techpowerup.com/gpu-specs/quadro-2000.c900">NVidia Quadro 2000</a> card that would have come with this workstation. The Quadro 2000 ended up being a pain-point for building the machine, but more on this later.</p>
+<p>Normally the ThinkStation C20 would have come with a 300GB 10,000 RPM hard drive. We always pull drives out of desktops to be batch wiped with other drives. Finding good 10,000 RPM hard drives is difficult these days. And while most of the world has moved on to solid state drives, we don’t see a lot of SSDs at Computer Recycling. We do see a lot of 500GB hard drives, so that’s what we put in the C20. Sadly, we chose a WD Blue drive. This wouldn’t have been my first choice, a WD black drive would have been a better choice, but the blue drive tested fine and was what ended up being put in.</p>
+<p>It’s possible the Computer Recycling project might have another XEON E5620 CPU lying around, but even if we found one, we don’t have the heat sink needed to cool the extra CPU. So for now, we’re just using the single XEON processor.</p>
+<h3 id="initial-xubuntu-install">Initial Xubuntu Install<a hidden class="anchor" aria-hidden="true" href="#initial-xubuntu-install">#</a></h3>
+<p>One of our volunteers initially installed <a href="https://xubuntu.org/">Xubuntu 22.04</a> on the C20. Xubuntu appeared to work great, but one of the benchmarks we run (Xonotic game), was really low (39.54 FPS for high detail at 1024×768). Checking the driver I noticed that they were using the open source driver, rather than the available (Nvidia-390) proprietary driver. Our new checklists mention checking
+for proprietary drivers using the drivers program in Xubuntu/Linux Mint, but the checklist this volunteer was working from
+was older and didn&rsquo;t mention this step.</p>
+<p>However, even if the volunteer followed the newer checklist, they still would have failed to install the driver. It turns out that the proprietary driver fails to install in Xubuntu 22.04 (and Linux Mint with a newer kernel). After a bit of digging I discovered that the NVidia-390 driver needs an old kernel. The kernel in Xubuntu 22.04 is too new to support the old proprietary NVidia driver.</p>
+<h3 id="installing-linux-mint">Installing Linux Mint<a hidden class="anchor" aria-hidden="true" href="#installing-linux-mint">#</a></h3>
+<p>While I fully expect whomever buys this machine won’t use it as a gaming machine (it’s 2010 remember), squeezing a few extra FPS out would be nice. Knowing that Linux Mint XFCE (21.3 – Virginia) uses an older kernel I decided to try installing Linux Mint to see if the proprietary NVidia driver would work. Yes, it did. And it turned out that it was significantly better, 172.20 FPS (vs the 39.54 FPS using the open source driver).</p>
+<p><img alt="Linux Mint" loading="lazy" src="/img/linux_mint.webp"><!-- raw HTML omitted -->Fig. 1 - Linux Mint<!-- raw HTML omitted --></p>
+<p>Before people go slagging the open source driver developers, the bad performance of this old NVidia card is not their fault. Traditionally, NVidia hasn’t been very helpful to the open source community (thus the infamous <a href="https://www.youtube.com/watch?v=iYWzMvlj2RQ">Linus Torvalds cursing NVidia video</a>).</p>
+<p>While NVidia has a page full of open source projects, I am sure they’re not interested in spending the time to update ancient drivers like this to work with modern versions of Linux. It’s a bit sad, as a machine like this C20 could still be a very useful workstation, especially with the max 192GB of RAM, and an SSD.</p>
+<p>After installing the NVidia driver I also ran <a href="https://github.com/linuxmint/timeshift">Timeshift</a>, and set up a restore point for the computer. I figured I would try updating the kernel on Linux Mint, because they make it dead simple to do so. Sadly this resulted in the machine not booting to the desktop, as it had done with Xubuntu. This wasn’t an issue because I was able to just switch to a virtual terminal (CTRL + ALT + F1), login, and run:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>timeshift --restore 
+</span></span></code></pre></div><p>Timeshift then displays the restore points you’ve set up and lets you choose a point to restore to. I restored back to the kernel the proprietary driver worked on, and voila, the machine was ready to go, back at the desktop. This also confirmed that the issue is compiling the source against a newer kernel.</p>
+<p><img alt="Timeshift" loading="lazy" src="/img/timeshift.webp"><!-- raw HTML omitted -->Fig. 2 - Timeshift<!-- raw HTML omitted --></p>
+<h3 id="considered-changing-video-cards">Considered changing video cards<a hidden class="anchor" aria-hidden="true" href="#considered-changing-video-cards">#</a></h3>
+<p>I also considered changing the video card in the C20 to an ASUS branded AMD HD7750, which scores about 47% better on synthetic tests than the Quadro 2000, but sadly the height of that card is about 10 mm too high to fit in the case properly. The other video cards we have that don’t have a PCIe power connector are all much older, so the Quadro 2000 ended up being the best fit. Something like a low profile GTX 1030 might be the cheapest price/performance card that would actually fit in this machine, but then again we’re dealing with NVidia.</p>
+<h3 id="still-more-work-to-do">Still More Work To Do<a hidden class="anchor" aria-hidden="true" href="#still-more-work-to-do">#</a></h3>
+<p>There’s still a bit more work to do on this system. The lid has a lot of very deep scratches on it, so I plan to take it out an spray paint it matte black to get it looking similar to the rest of the system. It’s a neat machine with potential. Once done we’ll likely sell it for around $50 CDN, but for the moment it’s back in our to be refurbished area until we can clean it up a bit more.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/computer-recycling/">Computer Recycling</a></li>
+      <li><a href="/tags/computer-refurbishing/">Computer Refurbishing</a></li>
+      <li><a href="/tags/linux-mint/">Linux Mint</a></li>
+      <li><a href="/tags/xubuntu/">Xubuntu</a></li>
+      <li><a href="/tags/hardware/">Hardware</a></li>
+      <li><a href="/tags/lenovo/">Lenovo</a></li>
+    </ul>
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u) on x"
+            href="https://x.com/intent/tweet/?text=Linux%20on%20the%20Lenovo%20Thinkstation%20C20%20%28MT-M%204265-93u%29&amp;url=%2fposts%2flinux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u%2f&amp;hashtags=ComputerRecycling%2cComputerRefurbishing%2cLinuxMint%2cXubuntu%2cHardware%2cLenovo">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u) on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2flinux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u%2f&amp;title=Linux%20on%20the%20Lenovo%20Thinkstation%20C20%20%28MT-M%204265-93u%29&amp;summary=Linux%20on%20the%20Lenovo%20Thinkstation%20C20%20%28MT-M%204265-93u%29&amp;source=%2fposts%2flinux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u) on reddit"
+            href="https://reddit.com/submit?url=%2fposts%2flinux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u%2f&title=Linux%20on%20the%20Lenovo%20Thinkstation%20C20%20%28MT-M%204265-93u%29">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u) on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=%2fposts%2flinux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u) on whatsapp"
+            href="https://api.whatsapp.com/send?text=Linux%20on%20the%20Lenovo%20Thinkstation%20C20%20%28MT-M%204265-93u%29%20-%20%2fposts%2flinux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u) on telegram"
+            href="https://telegram.me/share/url?text=Linux%20on%20the%20Lenovo%20Thinkstation%20C20%20%28MT-M%204265-93u%29&amp;url=%2fposts%2flinux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u) on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Linux%20on%20the%20Lenovo%20Thinkstation%20C20%20%28MT-M%204265-93u%29&u=%2fposts%2flinux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="/">Chaslinux&#39;s Blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

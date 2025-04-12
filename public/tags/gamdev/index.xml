@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gamdev on Chaslinux&#39;s Blog</title>
+    <link>//localhost:1313/tags/gamdev/</link>
+    <description>Recent content in Gamdev on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Mar 2025 13:32:33 -0400</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/gamdev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Initial GameMaker experience under Xubuntu Linux</title>
+      <link>//localhost:1313/posts/initial_gamemaker_experience_under_xubuntu_linux/</link>
+      <pubDate>Thu, 13 Mar 2025 13:32:33 -0400</pubDate>
+      <guid>//localhost:1313/posts/initial_gamemaker_experience_under_xubuntu_linux/</guid>
+      <description>&lt;h3 id=&#34;previous-gamemaker-experience&#34;&gt;Previous GameMaker experience&lt;/h3&gt;
+&lt;p&gt;I bought version 1.4 of the Gamemaker game engine on a Humble Bundle many years ago. At the time Gamemaker ONLY ran under Microsoft Windows. It was possible to export games to Linux (Ubuntu/Debian-specifically), but you couldn’t run the game engine itself under Linux. Version 2.x came along, and I paid to upgrade to 2.x as well.&lt;/p&gt;
+&lt;p&gt;Some time between when I bought 1.4 and 2.x I started working on my Asteroids-like clone, Fasteroids: (&lt;a href=&#34;https://chaslinux.itch.io/fasteroids)&#34;&gt;https://chaslinux.itch.io/fasteroids)&lt;/a&gt;. Many professional developers suggest starting and finishing a project as quickly as you can, then moving on to something else. Of course I didn’t listen and kept adding “features” to Fasteroids, which lead to the game being pretty messed up, and me losing interest.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GNOME on Chaslinux&#39;s Blog</title>
+    <link>/tags/gnome/</link>
+    <description>Recent content in GNOME on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Feb 2023 18:57:02 -0400</lastBuildDate>
+    <atom:link href="/tags/gnome/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ubuntu 22.04 Jammy Jellyfish</title>
+      <link>/posts/ubuntu_2204_jammy_jellyfish/</link>
+      <pubDate>Wed, 01 Feb 2023 18:57:02 -0400</pubDate>
+      <guid>/posts/ubuntu_2204_jammy_jellyfish/</guid>
+      <description>&lt;h3 id=&#34;the-computer-recycling-project-used-ubuntu-linux-from-2006-to-2010&#34;&gt;The Computer Recycling Project used Ubuntu Linux from 2006 to 2010&lt;/h3&gt;
+&lt;p&gt;It’s a challenge to talk about Xubuntu Linux without referring to Xubuntu’s more popular relative, Ubuntu Linux. Ubuntu Linux was started in 2004 and based around a then popular flavour/distribution of Linux, Debian.&lt;/p&gt;
+&lt;p&gt;Debian Linux was the distribution The Working Centre’s Computer Recycling Project initially used to develop our own Linux distribution, &lt;a href=&#34;https://wclp.sourceforge.net/&#34;&gt;WCLP – Working Centre Linux Project&lt;/a&gt;, way back in 2001. By 2006 the project had switched to Ubuntu Linux. Ubuntu Linux was a rising star back in 2006, it made installing “difficult to install” proprietary drivers easy (compared to Debian). And because Ubuntu was based on Debian, people with Debian experience could easily adapt to Ubuntu.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

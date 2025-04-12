@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Media Centre on Chaslinux&#39;s Blog</title>
+    <link>/tags/media-centre/</link>
+    <description>Recent content in Media Centre on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 15 Aug 2024 08:49:02 -0400</lastBuildDate>
+    <atom:link href="/tags/media-centre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transitioning our KODI media centre</title>
+      <link>/posts/transitioning_our_kodi_media_centre/</link>
+      <pubDate>Thu, 15 Aug 2024 08:49:02 -0400</pubDate>
+      <guid>/posts/transitioning_our_kodi_media_centre/</guid>
+      <description>&lt;h3 id=&#34;moving-more-to-a-low-power-solution&#34;&gt;Moving more to a low-power solution&lt;/h3&gt;
+&lt;p&gt;Several months back I replaced the motherboard in the KODI media centre PC that sits in our living room. For many years our media centre has been rocking a Gigabyte motherboard with a second generation Core i7-2600 CPU. The Core i7-2600 came out in Q4 of 2010, making it almost 14 years old at the time I’m writing this. Still, it’s not a bad CPU. For several years it was the system I was compressing our movie collection on as the A8-5600K 4 core APU that was in my workstation (at the time) had about half the performance of the i7-2600. But about six months ago I replaced the CPU and motherboard with a still old, but more modern solution, a MSI motherboard and an Intel Core i3-7100.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

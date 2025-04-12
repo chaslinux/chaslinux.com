@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Hardware on Chaslinux&#39;s Blog</title>
+    <link>/categories/hardware/</link>
+    <description>Recent content in Hardware on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Mar 2025 09:19:00 -0400</lastBuildDate>
+    <atom:link href="/categories/hardware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steam On Linux Mint 21.3 (Virginia)</title>
+      <link>/posts/steam_on_linux_mint_21_3_virginia/</link>
+      <pubDate>Thu, 13 Mar 2025 09:19:00 -0400</pubDate>
+      <guid>/posts/steam_on_linux_mint_21_3_virginia/</guid>
+      <description>&lt;h3 id=&#34;debian-package-over-flatpak-but-get-it-from-steam&#34;&gt;Debian package over flatpak, but get it from Steam&lt;/h3&gt;
+&lt;p&gt;Moving from Xubuntu to Linux Mint XFCE was not as seemless as I’d hoped it would be. The last time I gave Linux Mint serious consideration was over 13 years ago when the Computer Recycling Project at The Working Centre was looking for a replacement for Ubuntu 10.04 (the next version would include the Unity desktop which wouldn’t run on a lot of our laptops at the time).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Our TrueNAS Server</title>
+      <link>/posts/our_truenas_server/</link>
+      <pubDate>Fri, 27 Sep 2024 07:56:18 -0400</pubDate>
+      <guid>/posts/our_truenas_server/</guid>
+      <description>&lt;h3 id=&#34;it-lives-it-dies&#34;&gt;It lives, it dies!&lt;/h3&gt;
+&lt;p&gt;Our new TrueNAS server is up, and all the hardware is working, but not without some hiccups on the way. After taking a lot longer to build than expect, I was so happy the other evening when I posted about the successful Power On Self Test (POST), and the new RAM (32GB) being properly detected. Exhausted at the end of the day I left the drives disconnected and the video card out.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building the NAS - hardware hiccups</title>
+      <link>/posts/building_the_nas/</link>
+      <pubDate>Wed, 25 Sep 2024 08:17:57 -0400</pubDate>
+      <guid>/posts/building_the_nas/</guid>
+      <description>&lt;h3 id=&#34;most-of-the-hardware-is-assembled&#34;&gt;Most of the hardware is assembled&lt;/h3&gt;
+&lt;p&gt;The past few weeks have been extremely busy, so I knew last night would probably be the only time I would get this week to work on the NAS. I’m glad I started building the NAS last night as it took much longer than anticipated. I finally finished the build at 10pm last night (and it’s still not quite complete).&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Intel Core i3 7100 CPU close-up&#34; loading=&#34;lazy&#34; src=&#34;/img/intel_core_i3_7100.webp&#34;&gt;&lt;!-- raw HTML omitted --&gt;Fig 1. I used an Intel Core i3-7100 CPU for lower power consumption&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Simple way to clean a Lenovo ThinkPad Case</title>
+      <link>/posts/simple_way_to_clean_a_lenovo_thinkpad_case/</link>
+      <pubDate>Fri, 16 Aug 2024 15:27:14 -0400</pubDate>
+      <guid>/posts/simple_way_to_clean_a_lenovo_thinkpad_case/</guid>
+      <description>&lt;h3 id=&#34;past&#34;&gt;Past&lt;/h3&gt;
+&lt;p&gt;Isopropyl is a great way to clean up a lot of plastic, but I found that while it’s helpful for removing grime, caked on stickers (Goo Gone), and other crud, it doesn’t always leave a nice finish. A few years back a volunteer at the Computer Recycling Project mentioned interning at a small computer store where they used Mr. Clean Magic Erasers to clean-up the top of ThinkPads. True to what he said, Mr. Clean Magic Erasers do seem to be a pretty good job on the top of ThinkPads.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transitioning our KODI media centre</title>
+      <link>/posts/transitioning_our_kodi_media_centre/</link>
+      <pubDate>Thu, 15 Aug 2024 08:49:02 -0400</pubDate>
+      <guid>/posts/transitioning_our_kodi_media_centre/</guid>
+      <description>&lt;h3 id=&#34;moving-more-to-a-low-power-solution&#34;&gt;Moving more to a low-power solution&lt;/h3&gt;
+&lt;p&gt;Several months back I replaced the motherboard in the KODI media centre PC that sits in our living room. For many years our media centre has been rocking a Gigabyte motherboard with a second generation Core i7-2600 CPU. The Core i7-2600 came out in Q4 of 2010, making it almost 14 years old at the time I’m writing this. Still, it’s not a bad CPU. For several years it was the system I was compressing our movie collection on as the A8-5600K 4 core APU that was in my workstation (at the time) had about half the performance of the i7-2600. But about six months ago I replaced the CPU and motherboard with a still old, but more modern solution, a MSI motherboard and an Intel Core i3-7100.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dell PowerEdge T110 II Network Attached Storage (NAS) build</title>
+      <link>/posts/dell_poweredge_t110_ii_nas/</link>
+      <pubDate>Sat, 01 Jun 2024 09:38:18 -0400</pubDate>
+      <guid>/posts/dell_poweredge_t110_ii_nas/</guid>
+      <description>&lt;h3 id=&#34;migrating-the-kodi-entertainment-system&#34;&gt;Migrating the KODI entertainment system&lt;/h3&gt;
+&lt;p&gt;On May 5th I mentioned that we’re Running out of space on our media center. In the comments of that post I followed up outlining a plan to buy another 8TB drive (for a total of 3 x 8TB drives) in order to do a RAID Z1 (for 16TB of space). But in order to do that I would need to reformat the drives, which means I also needed a plan to back up our media center data. I hinted at that solution in the comments too: 4 x 3TB drives in a RAID Z1 – which would give me 9TB of space (1 x 3TB is the spare), just enough to back up all the data.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cannot click after laptop lid closed and re-opened - Xubuntu Linux</title>
+      <link>/posts/cannot_click_after_laptop_lid_closed_and_reopened_linux/</link>
+      <pubDate>Tue, 28 May 2024 12:14:43 -0400</pubDate>
+      <guid>/posts/cannot_click_after_laptop_lid_closed_and_reopened_linux/</guid>
+      <description>&lt;h3 id=&#34;the-problem-is-power-management-workaround&#34;&gt;The problem is power management (workaround)&lt;/h3&gt;
+&lt;p&gt;You’ve installed Xubuntu 22.04 on your laptop and things are going smoothly… Then you close the lid on your laptop and discover when you open it back up again that when you move the mouse it moves, but you cannot right or left click for some reason? The issue appears to be with power management.&lt;/p&gt;
+&lt;p&gt;The work around we found that appears to fix this is to edit the file:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adding a laser printer as a shared network printer in Xubuntu Linux</title>
+      <link>/posts/adding_a_laser_printer_as_a_shared_network_printer_in_linux/</link>
+      <pubDate>Sun, 05 May 2024 16:09:17 -0400</pubDate>
+      <guid>/posts/adding_a_laser_printer_as_a_shared_network_printer_in_linux/</guid>
+      <description>&lt;h3 id=&#34;switching-printers-at-home&#34;&gt;Switching printers at home&lt;/h3&gt;
+&lt;p&gt;Other than running out of toner, there was nothing wrong with the HP Laserjet P1102w printer we have at home. The printer printed cleanly, was compact, and was connected to our wireless network, so any machine on our network could print to it. In fact, I was planning on buying more toner this evening after we did our usual scouring of thrift shops. I thought there was a small chance I might find the right HP 85A toner at one of the stores we planned to go to. I did find some other toner at one of the thrift shops, and the $5.95 price tag wasn’t bad, but it was for a different model in the same line of printers. But this was actually after spotting an even better deal, an HP Laserjet 1320 duplex printer for a whopping $10.95.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Linux BASH shell script to create a PDF of monitor information - findmonitor.sh</title>
+      <link>/posts/a_linux_shell_script_to_create_a_pdf_of_monitor_information_findmonitor/</link>
+      <pubDate>Mon, 27 Mar 2023 13:58:08 -0400</pubDate>
+      <guid>/posts/a_linux_shell_script_to_create_a_pdf_of_monitor_information_findmonitor/</guid>
+      <description>&lt;h3 id=&#34;about-findmonitorsh&#34;&gt;About findmonitor.sh&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Note: This script is NOT compatible with systems running Wayland. We use Xubuntu Linux at our project.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;The Working Centre’s not-for-profit &lt;a href=&#34;https://www.theworkingcentre.org/cr/&#34;&gt;Computer Recycling Project&lt;/a&gt; sometimes receives donations of many monitors all at once. Our previous method for handling monitors was to set them up, run them through a bunch of tests, print a label on our label printer, and enter the monitor into our point of sale. This method hasn’t worked very well for us when we’ve received a lot of monitors all at once. Large amounts of monitors were sitting untested for awhile because we didn’t have the resources to do the old process for each monitor. We needed a faster way to figure out some of the details of monitors, and make them easier to sell without needing to create labels and enter everything into the point of sale.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hardware detection script for Linux refurbishers</title>
+      <link>/posts/hardware_detection_script_for_linux_refurbishers/</link>
+      <pubDate>Wed, 15 Feb 2023 14:29:08 -0400</pubDate>
+      <guid>/posts/hardware_detection_script_for_linux_refurbishers/</guid>
+      <description>&lt;h3 id=&#34;about-the-script&#34;&gt;About the script&lt;/h3&gt;
+&lt;p&gt;I wrote the hardware.sh BASH script to make it a bit simpler for volunteers at The Working Centre’s &lt;a href=&#34;https://www.theworkingcentre.org/cr/&#34;&gt;Computer Recycling Project&lt;/a&gt; to figure out what hardware was in a computer. For more than a dozen years we’ve been asking volunteers to gather information from the BIOS, or using phoronix-test-suite under our PXE booted Debian Live environment. Volunteers would write the information on quarter page-sized sheets we would attach to each computer. While this was a useful function to help volunteers get to know hardware in a computer, there were a few problems with this method:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

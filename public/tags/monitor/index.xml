@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Monitor on Chaslinux&#39;s Blog</title>
+    <link>/tags/monitor/</link>
+    <description>Recent content in Monitor on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Mar 2023 13:58:08 -0400</lastBuildDate>
+    <atom:link href="/tags/monitor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Linux BASH shell script to create a PDF of monitor information - findmonitor.sh</title>
+      <link>/posts/a_linux_shell_script_to_create_a_pdf_of_monitor_information_findmonitor/</link>
+      <pubDate>Mon, 27 Mar 2023 13:58:08 -0400</pubDate>
+      <guid>/posts/a_linux_shell_script_to_create_a_pdf_of_monitor_information_findmonitor/</guid>
+      <description>&lt;h3 id=&#34;about-findmonitorsh&#34;&gt;About findmonitor.sh&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Note: This script is NOT compatible with systems running Wayland. We use Xubuntu Linux at our project.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;The Working Centre’s not-for-profit &lt;a href=&#34;https://www.theworkingcentre.org/cr/&#34;&gt;Computer Recycling Project&lt;/a&gt; sometimes receives donations of many monitors all at once. Our previous method for handling monitors was to set them up, run them through a bunch of tests, print a label on our label printer, and enter the monitor into our point of sale. This method hasn’t worked very well for us when we’ve received a lot of monitors all at once. Large amounts of monitors were sitting untested for awhile because we didn’t have the resources to do the old process for each monitor. We needed a faster way to figure out some of the details of monitors, and make them easier to sell without needing to create labels and enter everything into the point of sale.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

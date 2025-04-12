@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Computer Refurbishing on Chaslinux&#39;s Blog</title>
+    <link>/categories/computer-refurbishing/</link>
+    <description>Recent content in Computer Refurbishing on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Apr 2025 18:24:58 -0400</lastBuildDate>
+    <atom:link href="/categories/computer-refurbishing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computer Recycling&#39;s PXE Network Server</title>
+      <link>/posts/computer_recyclings_pxe_network_server/</link>
+      <pubDate>Tue, 01 Apr 2025 18:24:58 -0400</pubDate>
+      <guid>/posts/computer_recyclings_pxe_network_server/</guid>
+      <description>&lt;h3 id=&#34;pxe-network-installation&#34;&gt;PXE network installation&lt;/h3&gt;
+&lt;p&gt;Most Linux distribution web sites describe the process of how to download an &lt;strong&gt;ISO&lt;/strong&gt;, and create a bootable USB key. While USB keys are great if you&amp;rsquo;re working on your own computer, when you need to scale up and install across a number of systems there are more efficient ways of deploying Linux. One of those ways is to network boot, and install from a PXE (Preboot Execution Environment) server.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building the NAS - hardware hiccups</title>
+      <link>/posts/building_the_nas/</link>
+      <pubDate>Wed, 25 Sep 2024 08:17:57 -0400</pubDate>
+      <guid>/posts/building_the_nas/</guid>
+      <description>&lt;h3 id=&#34;most-of-the-hardware-is-assembled&#34;&gt;Most of the hardware is assembled&lt;/h3&gt;
+&lt;p&gt;The past few weeks have been extremely busy, so I knew last night would probably be the only time I would get this week to work on the NAS. I’m glad I started building the NAS last night as it took much longer than anticipated. I finally finished the build at 10pm last night (and it’s still not quite complete).&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Intel Core i3 7100 CPU close-up&#34; loading=&#34;lazy&#34; src=&#34;/img/intel_core_i3_7100.webp&#34;&gt;&lt;!-- raw HTML omitted --&gt;Fig 1. I used an Intel Core i3-7100 CPU for lower power consumption&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Simple way to clean a Lenovo ThinkPad Case</title>
+      <link>/posts/simple_way_to_clean_a_lenovo_thinkpad_case/</link>
+      <pubDate>Fri, 16 Aug 2024 15:27:14 -0400</pubDate>
+      <guid>/posts/simple_way_to_clean_a_lenovo_thinkpad_case/</guid>
+      <description>&lt;h3 id=&#34;past&#34;&gt;Past&lt;/h3&gt;
+&lt;p&gt;Isopropyl is a great way to clean up a lot of plastic, but I found that while it’s helpful for removing grime, caked on stickers (Goo Gone), and other crud, it doesn’t always leave a nice finish. A few years back a volunteer at the Computer Recycling Project mentioned interning at a small computer store where they used Mr. Clean Magic Erasers to clean-up the top of ThinkPads. True to what he said, Mr. Clean Magic Erasers do seem to be a pretty good job on the top of ThinkPads.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Linux BASH shell script to create a PDF of monitor information - findmonitor.sh</title>
+      <link>/posts/a_linux_shell_script_to_create_a_pdf_of_monitor_information_findmonitor/</link>
+      <pubDate>Mon, 27 Mar 2023 13:58:08 -0400</pubDate>
+      <guid>/posts/a_linux_shell_script_to_create_a_pdf_of_monitor_information_findmonitor/</guid>
+      <description>&lt;h3 id=&#34;about-findmonitorsh&#34;&gt;About findmonitor.sh&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Note: This script is NOT compatible with systems running Wayland. We use Xubuntu Linux at our project.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;The Working Centre’s not-for-profit &lt;a href=&#34;https://www.theworkingcentre.org/cr/&#34;&gt;Computer Recycling Project&lt;/a&gt; sometimes receives donations of many monitors all at once. Our previous method for handling monitors was to set them up, run them through a bunch of tests, print a label on our label printer, and enter the monitor into our point of sale. This method hasn’t worked very well for us when we’ve received a lot of monitors all at once. Large amounts of monitors were sitting untested for awhile because we didn’t have the resources to do the old process for each monitor. We needed a faster way to figure out some of the details of monitors, and make them easier to sell without needing to create labels and enter everything into the point of sale.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hardware detection script for Linux refurbishers</title>
+      <link>/posts/hardware_detection_script_for_linux_refurbishers/</link>
+      <pubDate>Wed, 15 Feb 2023 14:29:08 -0400</pubDate>
+      <guid>/posts/hardware_detection_script_for_linux_refurbishers/</guid>
+      <description>&lt;h3 id=&#34;about-the-script&#34;&gt;About the script&lt;/h3&gt;
+&lt;p&gt;I wrote the hardware.sh BASH script to make it a bit simpler for volunteers at The Working Centre’s &lt;a href=&#34;https://www.theworkingcentre.org/cr/&#34;&gt;Computer Recycling Project&lt;/a&gt; to figure out what hardware was in a computer. For more than a dozen years we’ve been asking volunteers to gather information from the BIOS, or using phoronix-test-suite under our PXE booted Debian Live environment. Volunteers would write the information on quarter page-sized sheets we would attach to each computer. While this was a useful function to help volunteers get to know hardware in a computer, there were a few problems with this method:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

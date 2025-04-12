@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DOS on Chaslinux&#39;s Blog</title>
+    <link>/tags/dos/</link>
+    <description>Recent content in DOS on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 May 2024 11:47:15 -0400</lastBuildDate>
+    <atom:link href="/tags/dos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prince of Persia for Linux</title>
+      <link>/posts/prince_of_persia_for_linux/</link>
+      <pubDate>Fri, 31 May 2024 11:47:15 -0400</pubDate>
+      <guid>/posts/prince_of_persia_for_linux/</guid>
+      <description>&lt;h3 id=&#34;prince-of-persia---a-classic-game-for-dos&#34;&gt;Prince of Persia - a classic game for DOS&lt;/h3&gt;
+&lt;p&gt;When I first ran Prince of Persia on PC-DOS I remember thinking, “finally, a DOS game that rivals the fun I had on Commodore 64 games.” I was never very good at the game (and that continues today), but it’s a classic game.&lt;/p&gt;
+&lt;p&gt;The original DOS version has a port for Linux which you can find on github here:&lt;/p&gt;
+&lt;p&gt;(&lt;a href=&#34;https://github.com/NagyD/SDLPoP?tab=readme-ov-file&#34;&gt;https://github.com/NagyD/SDLPoP?tab=readme-ov-file&lt;/a&gt;)&lt;/p&gt;
+&lt;h3 id=&#34;the-simplest-method-to-install-sdlpop-on-ubuntuxubuntu-linux&#34;&gt;The simplest method to install SDLPoP on Ubuntu/Xubuntu Linux&lt;/h3&gt;
+&lt;p&gt;If you’re on Xubuntu, or another Ubuntu-variant, there is a snap for the game (called sdlpop). To install the snap simply open a terminal and type:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

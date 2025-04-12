@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>FPS on Chaslinux&#39;s Blog</title>
+    <link>/tags/fps/</link>
+    <description>Recent content in FPS on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 23 Jan 2025 11:26:33 -0400</lastBuildDate>
+    <atom:link href="/tags/fps/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lessons learned encoding media under linux</title>
+      <link>/posts/lessons_learned_encoding_media_under_linux/</link>
+      <pubDate>Thu, 23 Jan 2025 11:26:33 -0400</pubDate>
+      <guid>/posts/lessons_learned_encoding_media_under_linux/</guid>
+      <description>&lt;h3 id=&#34;hardware-and-linux-distribution-differences&#34;&gt;Hardware and Linux Distribution Differences&lt;/h3&gt;
+&lt;p&gt;This post covers a bunch of areas of media decoding and encoding that I’ve discovered over a number of years using Debian-based distributions like Xubuntu, and Linux Mint. Primarily I’ll cover some of the differences between Xubuntu and Linux Mint, how various hardware (CPUs and graphics cards) encode video, and some of the “gotchas” when it comes to different methods as they apply to Handbrake (software) and MakeMKV.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

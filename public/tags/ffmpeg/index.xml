@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>FFMpeg on Chaslinux&#39;s Blog</title>
+    <link>/tags/ffmpeg/</link>
+    <description>Recent content in FFMpeg on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 20 Mar 2023 19:45:38 -0400</lastBuildDate>
+    <atom:link href="/tags/ffmpeg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Handbrake performance on more than 6 cores</title>
+      <link>/posts/handbrake_performance_on_more_than_6_cores/</link>
+      <pubDate>Mon, 20 Mar 2023 19:45:38 -0400</pubDate>
+      <guid>/posts/handbrake_performance_on_more_than_6_cores/</guid>
+      <description>&lt;h3 id=&#34;diminishing-returns-after-6-cores-but-not-for-all-media&#34;&gt;Diminishing returns after 6 cores, but not for all media&lt;/h3&gt;
+&lt;p&gt;Handbrake is a video transcoder. It’s normally used to convert and compress video from a format into a more compressed format. Handbrake comes in a command line version, handbrake-cli, and a graphical version, handbrake. I’ve seen it mentioned several times that Handbrake is best at 6 cores or less, after that the encoding returns are diminishing. I thought this was the case with some of my experimentation, but it seems the answer is more complicated – it depends.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

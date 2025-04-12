@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Initial GameMaker experience under Xubuntu Linux | Chaslinux&#39;s Blog</title>
+<meta name="keywords" content="Game Development, Gamedev, GameMaker, Linux, Xubuntu, Programming">
+<meta name="description" content="Previous GameMaker experience
+I bought version 1.4 of the Gamemaker game engine on a Humble Bundle many years ago. At the time Gamemaker ONLY ran under Microsoft Windows. It was possible to export games to Linux (Ubuntu/Debian-specifically), but you couldn’t run the game engine itself under Linux. Version 2.x came along, and I paid to upgrade to 2.x as well.
+Some time between when I bought 1.4 and 2.x I started working on my Asteroids-like clone, Fasteroids: (https://chaslinux.itch.io/fasteroids). Many professional developers suggest starting and finishing a project as quickly as you can, then moving on to something else. Of course I didn’t listen and kept adding “features” to Fasteroids, which lead to the game being pretty messed up, and me losing interest.">
+<meta name="author" content="">
+<link rel="canonical" href="/posts/initial_gamemaker_experience_under_xubuntu_linux/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.f49d66caae9ea0fd43f21f29e71a8d3e284517ed770f2aa86fa012953ad3c9ef.css" integrity="sha256-9J1myq6eoP1D8h8p5xqNPihFF&#43;13Dyqob6ASlTrTye8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="mask-icon" href="/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="/posts/initial_gamemaker_experience_under_xubuntu_linux/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="/posts/initial_gamemaker_experience_under_xubuntu_linux/">
+  <meta property="og:site_name" content="Chaslinux&#39;s Blog">
+  <meta property="og:title" content="Initial GameMaker experience under Xubuntu Linux">
+  <meta property="og:description" content="Previous GameMaker experience I bought version 1.4 of the Gamemaker game engine on a Humble Bundle many years ago. At the time Gamemaker ONLY ran under Microsoft Windows. It was possible to export games to Linux (Ubuntu/Debian-specifically), but you couldn’t run the game engine itself under Linux. Version 2.x came along, and I paid to upgrade to 2.x as well.
+Some time between when I bought 1.4 and 2.x I started working on my Asteroids-like clone, Fasteroids: (https://chaslinux.itch.io/fasteroids). Many professional developers suggest starting and finishing a project as quickly as you can, then moving on to something else. Of course I didn’t listen and kept adding “features” to Fasteroids, which lead to the game being pretty messed up, and me losing interest.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2023-08-03T13:32:33-04:00">
+    <meta property="article:modified_time" content="2023-08-03T13:32:33-04:00">
+    <meta property="article:tag" content="Game Development">
+    <meta property="article:tag" content="Gamedev">
+    <meta property="article:tag" content="GameMaker">
+    <meta property="article:tag" content="Linux">
+    <meta property="article:tag" content="Xubuntu">
+    <meta property="article:tag" content="Programming">
+    <meta property="og:image" content="/img/gamemaker_under_linux.webp">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="/img/gamemaker_under_linux.webp">
+<meta name="twitter:title" content="Initial GameMaker experience under Xubuntu Linux">
+<meta name="twitter:description" content="Previous GameMaker experience
+I bought version 1.4 of the Gamemaker game engine on a Humble Bundle many years ago. At the time Gamemaker ONLY ran under Microsoft Windows. It was possible to export games to Linux (Ubuntu/Debian-specifically), but you couldn’t run the game engine itself under Linux. Version 2.x came along, and I paid to upgrade to 2.x as well.
+Some time between when I bought 1.4 and 2.x I started working on my Asteroids-like clone, Fasteroids: (https://chaslinux.itch.io/fasteroids). Many professional developers suggest starting and finishing a project as quickly as you can, then moving on to something else. Of course I didn’t listen and kept adding “features” to Fasteroids, which lead to the game being pretty messed up, and me losing interest.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "/posts/"
+    }
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Initial GameMaker experience under Xubuntu Linux",
+      "item": "/posts/initial_gamemaker_experience_under_xubuntu_linux/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Initial GameMaker experience under Xubuntu Linux",
+  "name": "Initial GameMaker experience under Xubuntu Linux",
+  "description": "Previous GameMaker experience I bought version 1.4 of the Gamemaker game engine on a Humble Bundle many years ago. At the time Gamemaker ONLY ran under Microsoft Windows. It was possible to export games to Linux (Ubuntu/Debian-specifically), but you couldn’t run the game engine itself under Linux. Version 2.x came along, and I paid to upgrade to 2.x as well.\nSome time between when I bought 1.4 and 2.x I started working on my Asteroids-like clone, Fasteroids: (https://chaslinux.itch.io/fasteroids). Many professional developers suggest starting and finishing a project as quickly as you can, then moving on to something else. Of course I didn’t listen and kept adding “features” to Fasteroids, which lead to the game being pretty messed up, and me losing interest.\n",
+  "keywords": [
+    "Game Development", "Gamedev", "GameMaker", "Linux", "Xubuntu", "Programming"
+  ],
+  "articleBody": "Previous GameMaker experience I bought version 1.4 of the Gamemaker game engine on a Humble Bundle many years ago. At the time Gamemaker ONLY ran under Microsoft Windows. It was possible to export games to Linux (Ubuntu/Debian-specifically), but you couldn’t run the game engine itself under Linux. Version 2.x came along, and I paid to upgrade to 2.x as well.\nSome time between when I bought 1.4 and 2.x I started working on my Asteroids-like clone, Fasteroids: (https://chaslinux.itch.io/fasteroids). Many professional developers suggest starting and finishing a project as quickly as you can, then moving on to something else. Of course I didn’t listen and kept adding “features” to Fasteroids, which lead to the game being pretty messed up, and me losing interest.\nThen Opera bought YoYo games and turned Gamemaker into a subscription model… this made me swear off Gamemaker, despite the fact that I really enjoyed working in GML. But Opera did one thing that’s made me reconsider, they made a version of the engine that runs under Linux.\nCan you code a game simple in Linux? Part of my day job involves refurbishing computers with Xubuntu Linux (Update: Linux Mint) and promoting them among the community as a less expensive alternative to new or refurbished systems with Microsoft Windows. Asking people to make the leap from Windows to Linux can be a big challenge. The past couple of days I asked myself the question “what would be the best game engine to use in Linux?”\nThe most obvious answer to the question above, given what I know about Linux, is the Godot game engine. Godot exists in the Xubuntu/Ubuntu software repositories, so it can be installed right from the “software” program in Xubuntu – no extra files needed from the Internet.\nI tried Unity, the big kahuna of game engines, a couple of days ago, and despite everything working, the experience wasn’t as good as the brief experience I’ve had with Godot under Linux. This left me wondering, how bad could the Gamemaker beta for Linux client be? Could I actually code a game with it?\nI’m happy to say the answer is a definite “Yes!”\nGamemaker engine for Linux? What engine? Opera, the company that bought out Yoyo Games, the previous company behind the Gamemaker engine, hasn’t made it obvious where you can download the Linux version. The Windows and MacOS versions of Gamemaker are pretty easy to find, but there’s no obvious links on their web site to the Linux version, which is a shame, because despite their “this could corrupt your game files” warning, I found the engine to be stable enough that when I shut down with a project open, the project was fine when I started up again.\nI have since put many of the steps here into a shell script. The script doesn’t download the GameMaker engine Debian package, but it installs all the dependencies the engine requires for Xubuntu 24.04.2. You can clone the script from github at: (https://github.com/chaslinux/gamemaker-install)\nTo download Gamemaker for Linux you’ll first have to satisfy some dependencies, open a terminal and enter the following commands:\nsudo apt update sudo apt install build-essential openssh-server clang libssl-dev libxrandr-dev libxxf86vm-dev libopenal-dev libgl1-mesa-dev libglu1-mesa-dev zlib1g-dev libcurl4-openssl-dev ffmpeg libfuse2 curl -y The first command updates the online software library. The second command downloads and installs several libraries and programs Gamemaker uses. Now we need to download some Steam-related files needed by Gamemaker. Note: you don’t need a Steam account, these are for Steam support within Gamemaker (Software Development Kit).\nsudo mkdir /opt/steam-runtime/ curl https://repo.steampowered.com/steamrt-images-scout/snapshots/latest-steam-client-general-availability/com.valvesoftware.SteamRuntime.Sdk-amd64,i386-scout-sysroot.tar.gz | sudo tar -xzf - -C /opt/steam-runtime/ A great feature of newer versions of Gamemaker is the ability to make AppImages. AppImages are awesome because they can be run on any Linux distribution that supports “fuse.” What this means is you can develop a game on Xubuntu/Ubuntu and run it on Fedora Linux without needing to make any changes to the code. The same AppImage that runs on Ubuntu will run on Fedora Linux.\nwget https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage sudo install -m 0755 linuxdeploy-x86_64.AppImage /usr/local/bin/linuxdeploy wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage sudo install -m 0755 appimagetool-x86_64.AppImage /usr/local/bin/appimagetool Finally, get the .deb (Ubuntu/Debian package) for Gamemaker from:\n(https://gms.yoyogames.com/ReleaseNotes-NuBeta.html)\nClick the Ubuntu download and install the .deb file using the software centre. Gamemaker can now be found in the whisker menu under Xubuntu, just open the menu and start typing gamemaker.\nThis beta version only makes games for Opera’s gx.games. In order to compile for other targets you’ll need to purchase a Creator ($4.99USD/mo), Indie ($9.99USD/mo), or Enterprise license ($79.99/mo). Indie adds exporting to web and mobile (other than gx.games), Enterprise adds exporting to consoles.\nMonthly subscription is not the way to go Shortly after I initially wrote this article I contacted the GameMaker team indicating I didn’t want to buy month-to-month, but would be happy to buy a year worth of GameMaker (I despise monthly subs). Not long after the team switch back to the 1 time payment model… And they granted me a professional license for buying the year sub. This is one of the reasons I’ve stuck with GameMaker, it seems the team really do care about the community. I’ve kept the post as I initially wrote it, but am adding this to show the team changed the model for the better.\nI feel the monthly subscription model Opera has chosen for Gamemaker is not going to attract new developers to Gamemaker. When I bought Gamemaker 1.4, it was 7 months before I started using Gamemaker. Some argue that you’re more likely to use software if you’re paying for it each month, but I’m not convinced, here’s why:\nMany years ago I picked up a book something like “Learn MySQL in 24 hours.” I spent the first couple of days going through the first six chapters of the book and then I got stuck, really stuck. I put the book down for approximately 6 months, then picked it up again and wondered “how the heck did I get stuck on that problem…” I’d learned the answer somewhere else, but I needed to step away from MySQL for awhile and come back to it. I can see something like this happening with Gamemaker as it’s sometimes difficult just to bend your head around game design principles.\nOne of the reasons I promote Free and Open Source Software is that it tends NOT to have a monthly subscription model.\nPing pong When I first started learning Gamemaker years ago I found Sara (ne: Shaun) Spalding’s tutorials really helpful. So when trying out Gamemaker under Xubuntu I wanted a fast way to create a basic game… I chose Sara’s Pong tutorial as a quick (in under 15 minutes) way to test creating a game:\n(https://www.youtube.com/watch?v=yjt75sdH9h8)\nIt took me a bit more than 15 minutes, but not a lot more (25 at most) to complete this tutorial. One of the problems I ran into is when I created resources using a hot key combination, they didn’t automatically get assigned to the appropriate tree structure area. For example, if I created a sprite, or an object, both were at the bottom of the Asset Browser, below Timelines. I needed to drag the sprites and objects up to their appropriate area – something a complete Gamemaker newbie might have missed.\nThat said, the game worked!\nFig 1. Pong game made using GameMaker under Linux\nOverall impressions I really like Gamemaker as an engine. It looks like Opera is doing some good things with Gamemaker… but the monthly subscription is a bit of a show-stopper for me. I’d prefer to buy the engine outright every couple of years rather than pay a monthly subscription. I work full time, and creating games is a hobby for me. I know some people pay monthly subs to play games like Warcraft, but that’s never been my thing. I prefer to just buy something once or twice. I don’t like “yet another thing I have to track every month…”\nGamemaker shows promise under Linux. The engine was stable enough that when I shut down the computer with Gamemaker and my project open, nothing got corrupted.\nI expect I will probably transfer my game-making skills to Godot, which is completely free. I’m going to try sticking with Gamemaker for a bit and give some updates as I discover new things about the engine under Xubuntu Linux.\n",
+  "wordCount" : "1390",
+  "inLanguage": "en",
+  "image":"/img/gamemaker_under_linux.webp","datePublished": "2023-08-03T13:32:33-04:00",
+  "dateModified": "2023-08-03T13:32:33-04:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "/posts/initial_gamemaker_experience_under_xubuntu_linux/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Chaslinux's Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="/" accesskey="h" title="Chaslinux&#39;s Blog (Alt + H)">Chaslinux&#39;s Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="/categories/" title="Categories">
+                    <span>Categories</span>
+                </a>
+            </li>
+            <li>
+                <a href="/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="/archives/" title="Archives">
+                    <span>Archives</span>
+                </a>
+            </li>
+            <li>
+                <a href="/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Initial GameMaker experience under Xubuntu Linux
+    </h1>
+    <div class="post-meta"><span title='2023-08-03 13:32:33 -0400 EDT'>August 3, 2023</span>&nbsp;·&nbsp;7 min
+
+</div>
+  </header> 
+<figure class="entry-cover">
+        <a href="/img/gamemaker_under_linux.webp" target="_blank" rel="noopener noreferrer">
+        <img loading="eager" src="/img/gamemaker_under_linux.webp" alt="GameMaker running under Xubuntu Linux">
+        </a>
+        <figcaption>Some of the code for Pong in GameMaker running under Xubuntu Linux</figcaption>
+</figure>
+  <div class="post-content"><h3 id="previous-gamemaker-experience">Previous GameMaker experience<a hidden class="anchor" aria-hidden="true" href="#previous-gamemaker-experience">#</a></h3>
+<p>I bought version 1.4 of the Gamemaker game engine on a Humble Bundle many years ago. At the time Gamemaker ONLY ran under Microsoft Windows. It was possible to export games to Linux (Ubuntu/Debian-specifically), but you couldn’t run the game engine itself under Linux. Version 2.x came along, and I paid to upgrade to 2.x as well.</p>
+<p>Some time between when I bought 1.4 and 2.x I started working on my Asteroids-like clone, Fasteroids: (<a href="https://chaslinux.itch.io/fasteroids)">https://chaslinux.itch.io/fasteroids)</a>. Many professional developers suggest starting and finishing a project as quickly as you can, then moving on to something else. Of course I didn’t listen and kept adding “features” to Fasteroids, which lead to the game being pretty messed up, and me losing interest.</p>
+<p>Then Opera bought YoYo games and turned Gamemaker into a subscription model… this made me swear off Gamemaker, despite the fact that I really enjoyed working in GML. But Opera did one thing that’s made me reconsider, they made a version of the engine that runs under Linux.</p>
+<h3 id="can-you-code-a-game-simple-in-linux">Can you code a game simple in Linux?<a hidden class="anchor" aria-hidden="true" href="#can-you-code-a-game-simple-in-linux">#</a></h3>
+<p>Part of my day job involves refurbishing computers with Xubuntu Linux (<strong>Update:</strong> Linux Mint) and promoting them among the community as a less expensive alternative to new or refurbished systems with Microsoft Windows. Asking people to make the leap from Windows to Linux can be a big challenge. The past couple of days I asked myself the question “what would be the best game engine to use in Linux?”</p>
+<p>The most obvious answer to the question above, given what I know about Linux, is the Godot game engine. Godot exists in the Xubuntu/Ubuntu software repositories, so it can be installed right from the “software” program in Xubuntu – no extra files needed from the Internet.</p>
+<p>I tried Unity, the big kahuna of game engines, a couple of days ago, and despite everything working, the experience wasn’t as good as the brief experience I’ve had with Godot under Linux. This left me wondering, how bad could the Gamemaker beta for Linux client be? Could I actually code a game with it?</p>
+<p>I’m happy to say the answer is a definite “Yes!”</p>
+<h3 id="gamemaker-engine-for-linux-what-engine">Gamemaker engine for Linux? What engine?<a hidden class="anchor" aria-hidden="true" href="#gamemaker-engine-for-linux-what-engine">#</a></h3>
+<p>Opera, the company that bought out Yoyo Games, the previous company behind the Gamemaker engine, hasn’t made it obvious where you can download the Linux version. The Windows and MacOS versions of Gamemaker are pretty easy to find, but there’s no obvious links on their web site to the Linux version, which is a shame, because despite their “this could corrupt your game files” warning, I found the engine to be stable enough that when I shut down with a project open, the project was fine when I started up again.</p>
+<blockquote>
+<p>I have since put many of the steps here into a shell script. The script doesn&rsquo;t download the GameMaker engine Debian package, but it installs all the
+dependencies the engine requires for Xubuntu 24.04.2. You can clone the script from github at: (<a href="https://github.com/chaslinux/gamemaker-install">https://github.com/chaslinux/gamemaker-install</a>)</p></blockquote>
+<p>To download Gamemaker for Linux you’ll first have to satisfy some dependencies, open a terminal and enter the following commands:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo apt update
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo apt install build-essential openssh-server clang libssl-dev libxrandr-dev libxxf86vm-dev libopenal-dev libgl1-mesa-dev libglu1-mesa-dev zlib1g-dev libcurl4-openssl-dev ffmpeg libfuse2 curl -y
+</span></span></code></pre></div><p>The first command updates the online software library. The second command downloads and installs several libraries and programs Gamemaker uses. Now we need to download some Steam-related files needed by Gamemaker. Note: you don’t need a Steam account, these are for Steam support within Gamemaker (Software Development Kit).</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>sudo mkdir /opt/steam-runtime/
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>curl https://repo.steampowered.com/steamrt-images-scout/snapshots/latest-steam-client-general-availability/com.valvesoftware.SteamRuntime.Sdk-amd64,i386-scout-sysroot.tar.gz | sudo tar -xzf - -C /opt/steam-runtime/
+</span></span></code></pre></div><p>A great feature of newer versions of Gamemaker is the ability to make AppImages. AppImages are awesome because they can be run on any Linux distribution that supports “fuse.” What this means is you can develop a game on Xubuntu/Ubuntu and run it on Fedora Linux without needing to make any changes to the code. The same AppImage that runs on Ubuntu will run on Fedora Linux.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>wget https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo install -m <span style="color:#ae81ff">0755</span> linuxdeploy-x86_64.AppImage /usr/local/bin/linuxdeploy
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>wget https://github.com/AppImage/AppImageKit/releases/download/continuous/appimagetool-x86_64.AppImage
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>sudo install -m <span style="color:#ae81ff">0755</span> appimagetool-x86_64.AppImage /usr/local/bin/appimagetool
+</span></span></code></pre></div><p>Finally, get the .deb (Ubuntu/Debian package) for Gamemaker from:</p>
+<p>(<a href="https://gms.yoyogames.com/ReleaseNotes-NuBeta.html">https://gms.yoyogames.com/ReleaseNotes-NuBeta.html</a>)</p>
+<p>Click the Ubuntu download and install the .deb file using the software centre. Gamemaker can now be found in the whisker menu under Xubuntu, just open the menu and start typing gamemaker.</p>
+<p>This beta version only makes games for Opera’s gx.games. In order to compile for other targets you’ll need to purchase a Creator ($4.99USD/mo), Indie ($9.99USD/mo), or Enterprise license ($79.99/mo). Indie adds exporting to web and mobile (other than gx.games), Enterprise adds exporting to consoles.</p>
+<h3 id="monthly-subscription-is-not-the-way-to-go">Monthly subscription is not the way to go<a hidden class="anchor" aria-hidden="true" href="#monthly-subscription-is-not-the-way-to-go">#</a></h3>
+<blockquote>
+<p>Shortly after I initially wrote this article I contacted the GameMaker team indicating I didn&rsquo;t want to buy month-to-month, but would be happy to buy a year
+worth of GameMaker (I despise monthly subs). Not long after the team switch back to the 1 time payment model&hellip; And they granted me a professional license for
+buying the year sub. This is one of the reasons I&rsquo;ve stuck with GameMaker, it seems the team really do care about the community.
+I&rsquo;ve kept the post as I initially wrote it, but am adding this to show the team changed the model for the better.</p></blockquote>
+<p>I feel the monthly subscription model Opera has chosen for Gamemaker is not going to attract new developers to Gamemaker. When I bought Gamemaker 1.4, it was 7 months before I started using Gamemaker. Some argue that you’re more likely to use software if you’re paying for it each month, but I’m not convinced, here’s why:</p>
+<p>Many years ago I picked up a book something like “Learn MySQL in 24 hours.” I spent the first couple of days going through the first six chapters of the book and then I got stuck, really stuck. I put the book down for approximately 6 months, then picked it up again and wondered “how the heck did I get stuck on that problem…” I’d learned the answer somewhere else, but I needed to step away from MySQL for awhile and come back to it. I can see something like this happening with Gamemaker as it’s sometimes difficult just to bend your head around game design principles.</p>
+<p>One of the reasons I promote Free and Open Source Software is that it tends NOT to have a monthly subscription model.</p>
+<h3 id="ping-pong">Ping pong<a hidden class="anchor" aria-hidden="true" href="#ping-pong">#</a></h3>
+<p>When I first started learning Gamemaker years ago I found Sara (ne: Shaun) Spalding’s tutorials really helpful. So when trying out Gamemaker under Xubuntu I wanted a fast way to create a basic game… I chose Sara’s Pong tutorial as a quick (in under 15 minutes) way to test creating a game:</p>
+<p>(<a href="https://www.youtube.com/watch?v=yjt75sdH9h8">https://www.youtube.com/watch?v=yjt75sdH9h8</a>)</p>
+<p>It took me a bit more than 15 minutes, but not a lot more (25 at most) to complete this tutorial. One of the problems I ran into is when I created resources using a hot key combination, they didn’t automatically get assigned to the appropriate tree structure area. For example, if I created a sprite, or an object, both were at the bottom of the Asset Browser, below Timelines. I needed to drag the sprites and objects up to their appropriate area – something a complete Gamemaker newbie might have missed.</p>
+<p>That said, the game worked!</p>
+<p><img alt="Pong game made in GameMaker under Linux" loading="lazy" src="/img/pong-game.webp"><!-- raw HTML omitted -->Fig 1. Pong game made using GameMaker under Linux<!-- raw HTML omitted --></p>
+<h3 id="overall-impressions">Overall impressions<a hidden class="anchor" aria-hidden="true" href="#overall-impressions">#</a></h3>
+<p>I really like Gamemaker as an engine. It looks like Opera is doing some good things with Gamemaker… but the monthly subscription is a bit of a show-stopper for me. I’d prefer to buy the engine outright every couple of years rather than pay a monthly subscription. I work full time, and creating games is a hobby for me. I know some people pay monthly subs to play games like Warcraft, but that’s never been my thing. I prefer to just buy something once or twice. I don’t like “yet another thing I have to track every month…”</p>
+<p>Gamemaker shows promise under Linux. The engine was stable enough that when I shut down the computer with Gamemaker and my project open, nothing got corrupted.</p>
+<p>I expect I will probably transfer my game-making skills to Godot, which is completely free. I’m going to try sticking with Gamemaker for a bit and give some updates as I discover new things about the engine under Xubuntu Linux.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="/tags/game-development/">Game Development</a></li>
+      <li><a href="/tags/gamedev/">Gamedev</a></li>
+      <li><a href="/tags/gamemaker/">GameMaker</a></li>
+      <li><a href="/tags/linux/">Linux</a></li>
+      <li><a href="/tags/xubuntu/">Xubuntu</a></li>
+      <li><a href="/tags/programming/">Programming</a></li>
+    </ul>
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Initial GameMaker experience under Xubuntu Linux on x"
+            href="https://x.com/intent/tweet/?text=Initial%20GameMaker%20experience%20under%20Xubuntu%20Linux&amp;url=%2fposts%2finitial_gamemaker_experience_under_xubuntu_linux%2f&amp;hashtags=GameDevelopment%2cGamedev%2cGameMaker%2cLinux%2cXubuntu%2cProgramming">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Initial GameMaker experience under Xubuntu Linux on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fposts%2finitial_gamemaker_experience_under_xubuntu_linux%2f&amp;title=Initial%20GameMaker%20experience%20under%20Xubuntu%20Linux&amp;summary=Initial%20GameMaker%20experience%20under%20Xubuntu%20Linux&amp;source=%2fposts%2finitial_gamemaker_experience_under_xubuntu_linux%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Initial GameMaker experience under Xubuntu Linux on reddit"
+            href="https://reddit.com/submit?url=%2fposts%2finitial_gamemaker_experience_under_xubuntu_linux%2f&title=Initial%20GameMaker%20experience%20under%20Xubuntu%20Linux">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Initial GameMaker experience under Xubuntu Linux on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=%2fposts%2finitial_gamemaker_experience_under_xubuntu_linux%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Initial GameMaker experience under Xubuntu Linux on whatsapp"
+            href="https://api.whatsapp.com/send?text=Initial%20GameMaker%20experience%20under%20Xubuntu%20Linux%20-%20%2fposts%2finitial_gamemaker_experience_under_xubuntu_linux%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Initial GameMaker experience under Xubuntu Linux on telegram"
+            href="https://telegram.me/share/url?text=Initial%20GameMaker%20experience%20under%20Xubuntu%20Linux&amp;url=%2fposts%2finitial_gamemaker_experience_under_xubuntu_linux%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Initial GameMaker experience under Xubuntu Linux on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=Initial%20GameMaker%20experience%20under%20Xubuntu%20Linux&u=%2fposts%2finitial_gamemaker_experience_under_xubuntu_linux%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="/">Chaslinux&#39;s Blog</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

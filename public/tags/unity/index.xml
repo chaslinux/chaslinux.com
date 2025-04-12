@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Unity on Chaslinux&#39;s Blog</title>
+    <link>/tags/unity/</link>
+    <description>Recent content in Unity on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Jul 2023 11:57:28 -0400</lastBuildDate>
+    <atom:link href="/tags/unity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First experience trying to learn Unity on Xubuntu Linux</title>
+      <link>/posts/first_experience_trying_to_learn_unity_on_xubuntu_linux/</link>
+      <pubDate>Wed, 26 Jul 2023 11:57:28 -0400</pubDate>
+      <guid>/posts/first_experience_trying_to_learn_unity_on_xubuntu_linux/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;After this experience, and some back and forth with GameMaker, the GameMaker team switched the licensing back to a one time fee (except for console exports),
+and they released a beta version of the engine for Ubuntu-based systems. The team continues to update this beta along with the normal code. Since I previously
+had experience with GameMaker I&amp;rsquo;ve decided to stick with it. I&amp;rsquo;ve been really thrilled with it as bugs I&amp;rsquo;ve run into have been fixed a short while after
+I&amp;rsquo;ve reported them, and the community have been great helping me solve issues.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

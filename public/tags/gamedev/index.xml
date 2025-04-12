@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gamedev on Chaslinux&#39;s Blog</title>
+    <link>/tags/gamedev/</link>
+    <description>Recent content in Gamedev on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 03 Aug 2023 13:32:33 -0400</lastBuildDate>
+    <atom:link href="/tags/gamedev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Initial GameMaker experience under Xubuntu Linux</title>
+      <link>/posts/initial_gamemaker_experience_under_xubuntu_linux/</link>
+      <pubDate>Thu, 03 Aug 2023 13:32:33 -0400</pubDate>
+      <guid>/posts/initial_gamemaker_experience_under_xubuntu_linux/</guid>
+      <description>&lt;h3 id=&#34;previous-gamemaker-experience&#34;&gt;Previous GameMaker experience&lt;/h3&gt;
+&lt;p&gt;I bought version 1.4 of the Gamemaker game engine on a Humble Bundle many years ago. At the time Gamemaker ONLY ran under Microsoft Windows. It was possible to export games to Linux (Ubuntu/Debian-specifically), but you couldn’t run the game engine itself under Linux. Version 2.x came along, and I paid to upgrade to 2.x as well.&lt;/p&gt;
+&lt;p&gt;Some time between when I bought 1.4 and 2.x I started working on my Asteroids-like clone, Fasteroids: (&lt;a href=&#34;https://chaslinux.itch.io/fasteroids)&#34;&gt;https://chaslinux.itch.io/fasteroids)&lt;/a&gt;. Many professional developers suggest starting and finishing a project as quickly as you can, then moving on to something else. Of course I didn’t listen and kept adding “features” to Fasteroids, which lead to the game being pretty messed up, and me losing interest.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>First experience trying to learn Unity on Xubuntu Linux</title>
+      <link>/posts/first_experience_trying_to_learn_unity_on_xubuntu_linux/</link>
+      <pubDate>Wed, 26 Jul 2023 11:57:28 -0400</pubDate>
+      <guid>/posts/first_experience_trying_to_learn_unity_on_xubuntu_linux/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;After this experience, and some back and forth with GameMaker, the GameMaker team switched the licensing back to a one time fee (except for console exports),
+and they released a beta version of the engine for Ubuntu-based systems. The team continues to update this beta along with the normal code. Since I previously
+had experience with GameMaker I&amp;rsquo;ve decided to stick with it. I&amp;rsquo;ve been really thrilled with it as bugs I&amp;rsquo;ve run into have been fixed a short while after
+I&amp;rsquo;ve reported them, and the community have been great helping me solve issues.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fasteroids - An Asteroids-like game for Linux and Windows</title>
+      <link>/posts/fasteroids_an_asteroids_like_game_for_linux_and_windows/</link>
+      <pubDate>Fri, 07 Jul 2023 18:54:33 -0400</pubDate>
+      <guid>/posts/fasteroids_an_asteroids_like_game_for_linux_and_windows/</guid>
+      <description>&lt;h3 id=&#34;reviving-an-old-project&#34;&gt;Reviving an old project&lt;/h3&gt;
+&lt;p&gt;Today I realized that, since redoing this web site, I still haven’t added any information about the game I made back in 2017-2020. Recently I revived Fasteroids, and made some changes to both simplify the game, but also with the idea that the game should be able to scale to 4k in the near future.&lt;/p&gt;
+&lt;p&gt;Before I ramble on more, you can download Fasteroids for Linux or Windows from:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

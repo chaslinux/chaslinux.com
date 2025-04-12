@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Laser Printer on Chaslinux&#39;s Blog</title>
+    <link>/tags/laser-printer/</link>
+    <description>Recent content in Laser Printer on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 May 2024 16:09:17 -0400</lastBuildDate>
+    <atom:link href="/tags/laser-printer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adding a laser printer as a shared network printer in Xubuntu Linux</title>
+      <link>/posts/adding_a_laser_printer_as_a_shared_network_printer_in_linux/</link>
+      <pubDate>Sun, 05 May 2024 16:09:17 -0400</pubDate>
+      <guid>/posts/adding_a_laser_printer_as_a_shared_network_printer_in_linux/</guid>
+      <description>&lt;h3 id=&#34;switching-printers-at-home&#34;&gt;Switching printers at home&lt;/h3&gt;
+&lt;p&gt;Other than running out of toner, there was nothing wrong with the HP Laserjet P1102w printer we have at home. The printer printed cleanly, was compact, and was connected to our wireless network, so any machine on our network could print to it. In fact, I was planning on buying more toner this evening after we did our usual scouring of thrift shops. I thought there was a small chance I might find the right HP 85A toner at one of the stores we planned to go to. I did find some other toner at one of the thrift shops, and the $5.95 price tag wasn’t bad, but it was for a different model in the same line of printers. But this was actually after spotting an even better deal, an HP Laserjet 1320 duplex printer for a whopping $10.95.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

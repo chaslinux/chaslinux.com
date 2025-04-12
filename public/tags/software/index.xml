@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Software on Chaslinux&#39;s Blog</title>
+    <link>/tags/software/</link>
+    <description>Recent content in Software on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Apr 2025 18:24:58 -0400</lastBuildDate>
+    <atom:link href="/tags/software/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computer Recycling&#39;s PXE Network Server</title>
+      <link>/posts/computer_recyclings_pxe_network_server/</link>
+      <pubDate>Tue, 01 Apr 2025 18:24:58 -0400</pubDate>
+      <guid>/posts/computer_recyclings_pxe_network_server/</guid>
+      <description>&lt;h3 id=&#34;pxe-network-installation&#34;&gt;PXE network installation&lt;/h3&gt;
+&lt;p&gt;Most Linux distribution web sites describe the process of how to download an &lt;strong&gt;ISO&lt;/strong&gt;, and create a bootable USB key. While USB keys are great if you&amp;rsquo;re working on your own computer, when you need to scale up and install across a number of systems there are more efficient ways of deploying Linux. One of those ways is to network boot, and install from a PXE (Preboot Execution Environment) server.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to play Jazz Jackrabbit on Linux</title>
+      <link>/posts/how_to_play_jazz_jackrabbit_on_linux/</link>
+      <pubDate>Fri, 17 Jan 2025 12:13:40 -0400</pubDate>
+      <guid>/posts/how_to_play_jazz_jackrabbit_on_linux/</guid>
+      <description>&lt;h3 id=&#34;jazz-jackrabbit--an-introduction&#34;&gt;Jazz Jackrabbit – an introduction&lt;/h3&gt;
+&lt;p&gt;Back in 1994 the World Wide Web (WWW) was just starting to catch on, mostly via a dial-up connection. Bulletin Board Systems (BBS) were starting to be on the way out, but at the time I was running a bulletin board for a local computer club. One of the attractions of bulletin board systems (besides online games/aka doors, message boards, and chatting) were the extensive “shareware” software collections. If you weren’t going to a computer store to buy software, you were probably calling a bulletin board to download shareware or freeware software. Shareware software became known as “try before you buy” software. In most cases software was fully functional, but limited in some way (for example: a game where you could play the first few levels, but if you wanted more, you had to send the shareware author money for the rest of the software).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[Fix] Vikings - Wolves of Midgard crashing after kalypso startup screen</title>
+      <link>/posts/fix_vikings_wolves_of_midgard_crashing_after_kalypso_startup_screen/</link>
+      <pubDate>Tue, 30 May 2023 20:25:37 -0400</pubDate>
+      <guid>/posts/fix_vikings_wolves_of_midgard_crashing_after_kalypso_startup_screen/</guid>
+      <description>&lt;h3 id=&#34;vikings--wolves-of-midgard-crashes-after-the-kalypso-video&#34;&gt;Vikings – Wolves of Midgard (crashes after the Kalypso video)&lt;/h3&gt;
+&lt;p&gt;Vikings – Wolves of Midgard is a linear action role playing game (ARPG) that lets you go back and repeat quests several times until you’re overpowered. Recently I’ve tried a number of role playing games only to find they were lacking in graphics, the controls were too jank, or they just required obscene amounts of time to make any progress. I like Vikings – Wolves of Midgard, because I find that despite the fact that the story is almost aways the same, you can complete quests over and over again until you’re overpowered. The controls are not bad, especially compared to some of the games I’ve played lately. Best of all it runs natively under Linux.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Legend of Grimrock - a better Bards Tale III</title>
+      <link>/posts/legend_of_grimrock_a_better_bards_tale_iii/</link>
+      <pubDate>Thu, 18 May 2023 20:38:36 -0400</pubDate>
+      <guid>/posts/legend_of_grimrock_a_better_bards_tale_iii/</guid>
+      <description>&lt;h3 id=&#34;bards-tale-iii--my-introduction-to-3d-like-adventure&#34;&gt;Bards Tale III – my introduction to 3D like adventure&lt;/h3&gt;
+&lt;p&gt;Back in the late 1980’s I worked for Simcoe Computer Consultants at the 400 Market, outside of Barrie, Ontario. The 400 Market was a mixed market of many vendors, one of which was Simcoe Computer Consultants. I spent the weekends manning the company’s booth, selling the odd item, and spreading the word about the company’s computers and services.&lt;/p&gt;
+&lt;p&gt;One weekend Cec, one of the company owners, mentioned that a lead from the market had helped them sell a bunch of computers, and I was welcome to pick a piece of software as a reward. I picked Bard’s Tale III, Thief of Fate, a dungeon crawling game with a 3D-like interface. Bard’s Tale III quickly became one of my favourite games, it mixed D&amp;amp;D elements with a more urgent element where one wrong turn could lead to a face to face encounter with deadly monsters.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Torchlight II for SteamOS and Linux</title>
+      <link>/posts/torchlight_ii_for_steamos_and_linux/</link>
+      <pubDate>Fri, 14 Apr 2023 19:55:27 -0400</pubDate>
+      <guid>/posts/torchlight_ii_for_steamos_and_linux/</guid>
+      <description>&lt;h3 id=&#34;almost-11-years-old-and-still-fun&#34;&gt;Almost 11 years old, and still fun&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://store.steampowered.com/app/200710/Torchlight_II/&#34;&gt;Torchlight II&lt;/a&gt; (opens to Steam page) was released in September of 2012, several months after the release of Diablo III. Max Schaefer and Matt Uelmen, both developers who worked on Diablo and Diablo II, helped form Runic Games, the company behind Torchlight II.&lt;/p&gt;
+&lt;p&gt;While both Torchlight II and Diablo II are considered ARPGs (Action Role Playing Games), Torchlight II feels like it has less linear gameplay. Both games drive you to destroy an end boss, and both have side quests, but Torchlight II is purposefully moddable, and a lot less dark. In Diablo and Diablo II you fight demons, devils, undead, and other demonic monstrosities. In Torchlight II you find yourself pitted against more Dungeons &amp;amp; Dragons variety monsters, Mind Flayers, Werewolves, Bandits, Manticores, and a more mixed variety of monsters.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Handbrake performance on more than 6 cores</title>
+      <link>/posts/handbrake_performance_on_more_than_6_cores/</link>
+      <pubDate>Mon, 20 Mar 2023 19:45:38 -0400</pubDate>
+      <guid>/posts/handbrake_performance_on_more_than_6_cores/</guid>
+      <description>&lt;h3 id=&#34;diminishing-returns-after-6-cores-but-not-for-all-media&#34;&gt;Diminishing returns after 6 cores, but not for all media&lt;/h3&gt;
+&lt;p&gt;Handbrake is a video transcoder. It’s normally used to convert and compress video from a format into a more compressed format. Handbrake comes in a command line version, handbrake-cli, and a graphical version, handbrake. I’ve seen it mentioned several times that Handbrake is best at 6 cores or less, after that the encoding returns are diminishing. I thought this was the case with some of my experimentation, but it seems the answer is more complicated – it depends.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ubuntu 22.04 Jammy Jellyfish</title>
+      <link>/posts/ubuntu_2204_jammy_jellyfish/</link>
+      <pubDate>Wed, 01 Feb 2023 18:57:02 -0400</pubDate>
+      <guid>/posts/ubuntu_2204_jammy_jellyfish/</guid>
+      <description>&lt;h3 id=&#34;the-computer-recycling-project-used-ubuntu-linux-from-2006-to-2010&#34;&gt;The Computer Recycling Project used Ubuntu Linux from 2006 to 2010&lt;/h3&gt;
+&lt;p&gt;It’s a challenge to talk about Xubuntu Linux without referring to Xubuntu’s more popular relative, Ubuntu Linux. Ubuntu Linux was started in 2004 and based around a then popular flavour/distribution of Linux, Debian.&lt;/p&gt;
+&lt;p&gt;Debian Linux was the distribution The Working Centre’s Computer Recycling Project initially used to develop our own Linux distribution, &lt;a href=&#34;https://wclp.sourceforge.net/&#34;&gt;WCLP – Working Centre Linux Project&lt;/a&gt;, way back in 2001. By 2006 the project had switched to Ubuntu Linux. Ubuntu Linux was a rising star back in 2006, it made installing “difficult to install” proprietary drivers easy (compared to Debian). And because Ubuntu was based on Debian, people with Debian experience could easily adapt to Ubuntu.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

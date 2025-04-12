@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on Chaslinux&#39;s Blog</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Apr 2025 18:24:58 -0400</lastBuildDate>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computer Refurbishing</title>
+      <link>/categories/computer-refurbishing/</link>
+      <pubDate>Tue, 01 Apr 2025 18:24:58 -0400</pubDate>
+      <guid>/categories/computer-refurbishing/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Linux</title>
+      <link>/categories/linux/</link>
+      <pubDate>Tue, 01 Apr 2025 18:24:58 -0400</pubDate>
+      <guid>/categories/linux/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Operating Systems</title>
+      <link>/categories/operating-systems/</link>
+      <pubDate>Tue, 01 Apr 2025 18:24:58 -0400</pubDate>
+      <guid>/categories/operating-systems/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gaming</title>
+      <link>/categories/gaming/</link>
+      <pubDate>Thu, 13 Mar 2025 09:19:00 -0400</pubDate>
+      <guid>/categories/gaming/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hardware</title>
+      <link>/categories/hardware/</link>
+      <pubDate>Thu, 13 Mar 2025 09:19:00 -0400</pubDate>
+      <guid>/categories/hardware/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Media</title>
+      <link>/categories/media/</link>
+      <pubDate>Thu, 23 Jan 2025 11:26:33 -0400</pubDate>
+      <guid>/categories/media/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Networking</title>
+      <link>/categories/networking/</link>
+      <pubDate>Fri, 27 Sep 2024 07:56:18 -0400</pubDate>
+      <guid>/categories/networking/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Software</title>
+      <link>/categories/software/</link>
+      <pubDate>Fri, 31 May 2024 11:47:15 -0400</pubDate>
+      <guid>/categories/software/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Communication</title>
+      <link>/categories/communication/</link>
+      <pubDate>Thu, 02 Nov 2023 09:28:49 -0400</pubDate>
+      <guid>/categories/communication/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Game Development</title>
+      <link>/categories/game-development/</link>
+      <pubDate>Thu, 03 Aug 2023 13:32:33 -0400</pubDate>
+      <guid>/categories/game-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Programming</title>
+      <link>/categories/programming/</link>
+      <pubDate>Thu, 03 Aug 2023 13:32:33 -0400</pubDate>
+      <guid>/categories/programming/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

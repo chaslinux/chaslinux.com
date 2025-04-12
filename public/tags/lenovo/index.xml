@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Lenovo on Chaslinux&#39;s Blog</title>
+    <link>/tags/lenovo/</link>
+    <description>Recent content in Lenovo on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 16 Aug 2024 15:27:14 -0400</lastBuildDate>
+    <atom:link href="/tags/lenovo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple way to clean a Lenovo ThinkPad Case</title>
+      <link>/posts/simple_way_to_clean_a_lenovo_thinkpad_case/</link>
+      <pubDate>Fri, 16 Aug 2024 15:27:14 -0400</pubDate>
+      <guid>/posts/simple_way_to_clean_a_lenovo_thinkpad_case/</guid>
+      <description>&lt;h3 id=&#34;past&#34;&gt;Past&lt;/h3&gt;
+&lt;p&gt;Isopropyl is a great way to clean up a lot of plastic, but I found that while it’s helpful for removing grime, caked on stickers (Goo Gone), and other crud, it doesn’t always leave a nice finish. A few years back a volunteer at the Computer Recycling Project mentioned interning at a small computer store where they used Mr. Clean Magic Erasers to clean-up the top of ThinkPads. True to what he said, Mr. Clean Magic Erasers do seem to be a pretty good job on the top of ThinkPads.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u)</title>
+      <link>/posts/linux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u/</link>
+      <pubDate>Tue, 09 Jul 2024 18:38:13 -0400</pubDate>
+      <guid>/posts/linux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This is an older post, reposted from the old web site. The project has since mostly switched to Linux Mint XFCE
+versions 21.3 (Virginia) and 22.1 (Xia). We still have Xubuntu 24.04.2 on our PXE server, but only install it on request.
+Our checklist has evolved and we&amp;rsquo;ve separated some steps into other checklists.
+See my &lt;a href=&#34;https://github.com/chaslinux&#34;&gt;github repositories&lt;/a&gt; for more info.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;workstation-class-hardware-at-a-deeply-discounted-price&#34;&gt;Workstation class hardware at a deeply discounted price&lt;/h3&gt;
+&lt;p&gt;Every now and then the &lt;a href=&#34;https://www.theworkingcentre.org/cr/&#34;&gt;Computer Recycling Project&lt;/a&gt; at The Working Centre gets a really interesting piece of hardware donated. As a not-for-profit project, most of our equipment is aimed at people who are lower income. This generally translates into lower prices, even for some equipment others would list for a lot more. But that doesn’t mean the project just wipes the machines, installs Linux, and dumps the equipment on a sales shelf… often equipment requires a little, or a lot more work.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

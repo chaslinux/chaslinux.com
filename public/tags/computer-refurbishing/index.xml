@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Computer Refurbishing on Chaslinux&#39;s Blog</title>
+    <link>/tags/computer-refurbishing/</link>
+    <description>Recent content in Computer Refurbishing on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Apr 2025 18:24:58 -0400</lastBuildDate>
+    <atom:link href="/tags/computer-refurbishing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computer Recycling&#39;s PXE Network Server</title>
+      <link>/posts/computer_recyclings_pxe_network_server/</link>
+      <pubDate>Tue, 01 Apr 2025 18:24:58 -0400</pubDate>
+      <guid>/posts/computer_recyclings_pxe_network_server/</guid>
+      <description>&lt;h3 id=&#34;pxe-network-installation&#34;&gt;PXE network installation&lt;/h3&gt;
+&lt;p&gt;Most Linux distribution web sites describe the process of how to download an &lt;strong&gt;ISO&lt;/strong&gt;, and create a bootable USB key. While USB keys are great if you&amp;rsquo;re working on your own computer, when you need to scale up and install across a number of systems there are more efficient ways of deploying Linux. One of those ways is to network boot, and install from a PXE (Preboot Execution Environment) server.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Simple way to clean a Lenovo ThinkPad Case</title>
+      <link>/posts/simple_way_to_clean_a_lenovo_thinkpad_case/</link>
+      <pubDate>Fri, 16 Aug 2024 15:27:14 -0400</pubDate>
+      <guid>/posts/simple_way_to_clean_a_lenovo_thinkpad_case/</guid>
+      <description>&lt;h3 id=&#34;past&#34;&gt;Past&lt;/h3&gt;
+&lt;p&gt;Isopropyl is a great way to clean up a lot of plastic, but I found that while it’s helpful for removing grime, caked on stickers (Goo Gone), and other crud, it doesn’t always leave a nice finish. A few years back a volunteer at the Computer Recycling Project mentioned interning at a small computer store where they used Mr. Clean Magic Erasers to clean-up the top of ThinkPads. True to what he said, Mr. Clean Magic Erasers do seem to be a pretty good job on the top of ThinkPads.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transitioning our KODI media centre</title>
+      <link>/posts/transitioning_our_kodi_media_centre/</link>
+      <pubDate>Thu, 15 Aug 2024 08:49:02 -0400</pubDate>
+      <guid>/posts/transitioning_our_kodi_media_centre/</guid>
+      <description>&lt;h3 id=&#34;moving-more-to-a-low-power-solution&#34;&gt;Moving more to a low-power solution&lt;/h3&gt;
+&lt;p&gt;Several months back I replaced the motherboard in the KODI media centre PC that sits in our living room. For many years our media centre has been rocking a Gigabyte motherboard with a second generation Core i7-2600 CPU. The Core i7-2600 came out in Q4 of 2010, making it almost 14 years old at the time I’m writing this. Still, it’s not a bad CPU. For several years it was the system I was compressing our movie collection on as the A8-5600K 4 core APU that was in my workstation (at the time) had about half the performance of the i7-2600. But about six months ago I replaced the CPU and motherboard with a still old, but more modern solution, a MSI motherboard and an Intel Core i3-7100.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u)</title>
+      <link>/posts/linux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u/</link>
+      <pubDate>Tue, 09 Jul 2024 18:38:13 -0400</pubDate>
+      <guid>/posts/linux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This is an older post, reposted from the old web site. The project has since mostly switched to Linux Mint XFCE
+versions 21.3 (Virginia) and 22.1 (Xia). We still have Xubuntu 24.04.2 on our PXE server, but only install it on request.
+Our checklist has evolved and we&amp;rsquo;ve separated some steps into other checklists.
+See my &lt;a href=&#34;https://github.com/chaslinux&#34;&gt;github repositories&lt;/a&gt; for more info.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;workstation-class-hardware-at-a-deeply-discounted-price&#34;&gt;Workstation class hardware at a deeply discounted price&lt;/h3&gt;
+&lt;p&gt;Every now and then the &lt;a href=&#34;https://www.theworkingcentre.org/cr/&#34;&gt;Computer Recycling Project&lt;/a&gt; at The Working Centre gets a really interesting piece of hardware donated. As a not-for-profit project, most of our equipment is aimed at people who are lower income. This generally translates into lower prices, even for some equipment others would list for a lot more. But that doesn’t mean the project just wipes the machines, installs Linux, and dumps the equipment on a sales shelf… often equipment requires a little, or a lot more work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Xubuntu 24.04 bugs so far - May 3 2024</title>
+      <link>/posts/xubuntu_2404_bugs_so_far_may_3_2024/</link>
+      <pubDate>Tue, 25 Jun 2024 19:12:27 -0400</pubDate>
+      <guid>/posts/xubuntu_2404_bugs_so_far_may_3_2024/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; While I tried using Linux Mint XFCE at home for awhile, I still found Xubuntu 24.04.2 works best for my use
+cases. There are some filesystem differences, and while I was adverse to snaps because of control issues, I&amp;rsquo;m finding they
+have some advantages over flatpak that I like. This is a repost from the old website.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;xubuntu-linux-version-2404-is-out&#34;&gt;Xubuntu Linux version 24.04 is out&lt;/h3&gt;
+&lt;p&gt;Version 24.04 of &lt;a href=&#34;https://xubuntu.org&#34;&gt;Xubuntu&lt;/a&gt; Linux is now out! Xubuntu Linux has been a staple of the &lt;a href=&#34;https://www.theworkingcentre.org/cr/&#34;&gt;Computer Recycling Project&lt;/a&gt; @ The Working Centre since 2010. With the project switching mostly to Linux, it’s now more important than ever that we’re up to date on trends, and new developments that affect the project. This new version of Xubuntu has a number of nice improvements, but in my testing on several different machines I’ve run into a number of issues as well.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Cannot click after laptop lid closed and re-opened - Xubuntu Linux</title>
+      <link>/posts/cannot_click_after_laptop_lid_closed_and_reopened_linux/</link>
+      <pubDate>Tue, 28 May 2024 12:14:43 -0400</pubDate>
+      <guid>/posts/cannot_click_after_laptop_lid_closed_and_reopened_linux/</guid>
+      <description>&lt;h3 id=&#34;the-problem-is-power-management-workaround&#34;&gt;The problem is power management (workaround)&lt;/h3&gt;
+&lt;p&gt;You’ve installed Xubuntu 22.04 on your laptop and things are going smoothly… Then you close the lid on your laptop and discover when you open it back up again that when you move the mouse it moves, but you cannot right or left click for some reason? The issue appears to be with power management.&lt;/p&gt;
+&lt;p&gt;The work around we found that appears to fix this is to edit the file:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Adding a laser printer as a shared network printer in Xubuntu Linux</title>
+      <link>/posts/adding_a_laser_printer_as_a_shared_network_printer_in_linux/</link>
+      <pubDate>Sun, 05 May 2024 16:09:17 -0400</pubDate>
+      <guid>/posts/adding_a_laser_printer_as_a_shared_network_printer_in_linux/</guid>
+      <description>&lt;h3 id=&#34;switching-printers-at-home&#34;&gt;Switching printers at home&lt;/h3&gt;
+&lt;p&gt;Other than running out of toner, there was nothing wrong with the HP Laserjet P1102w printer we have at home. The printer printed cleanly, was compact, and was connected to our wireless network, so any machine on our network could print to it. In fact, I was planning on buying more toner this evening after we did our usual scouring of thrift shops. I thought there was a small chance I might find the right HP 85A toner at one of the stores we planned to go to. I did find some other toner at one of the thrift shops, and the $5.95 price tag wasn’t bad, but it was for a different model in the same line of printers. But this was actually after spotting an even better deal, an HP Laserjet 1320 duplex printer for a whopping $10.95.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>A Linux BASH shell script to create a PDF of monitor information - findmonitor.sh</title>
+      <link>/posts/a_linux_shell_script_to_create_a_pdf_of_monitor_information_findmonitor/</link>
+      <pubDate>Mon, 27 Mar 2023 13:58:08 -0400</pubDate>
+      <guid>/posts/a_linux_shell_script_to_create_a_pdf_of_monitor_information_findmonitor/</guid>
+      <description>&lt;h3 id=&#34;about-findmonitorsh&#34;&gt;About findmonitor.sh&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; Note: This script is NOT compatible with systems running Wayland. We use Xubuntu Linux at our project.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;The Working Centre’s not-for-profit &lt;a href=&#34;https://www.theworkingcentre.org/cr/&#34;&gt;Computer Recycling Project&lt;/a&gt; sometimes receives donations of many monitors all at once. Our previous method for handling monitors was to set them up, run them through a bunch of tests, print a label on our label printer, and enter the monitor into our point of sale. This method hasn’t worked very well for us when we’ve received a lot of monitors all at once. Large amounts of monitors were sitting untested for awhile because we didn’t have the resources to do the old process for each monitor. We needed a faster way to figure out some of the details of monitors, and make them easier to sell without needing to create labels and enter everything into the point of sale.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hardware detection script for Linux refurbishers</title>
+      <link>/posts/hardware_detection_script_for_linux_refurbishers/</link>
+      <pubDate>Wed, 15 Feb 2023 14:29:08 -0400</pubDate>
+      <guid>/posts/hardware_detection_script_for_linux_refurbishers/</guid>
+      <description>&lt;h3 id=&#34;about-the-script&#34;&gt;About the script&lt;/h3&gt;
+&lt;p&gt;I wrote the hardware.sh BASH script to make it a bit simpler for volunteers at The Working Centre’s &lt;a href=&#34;https://www.theworkingcentre.org/cr/&#34;&gt;Computer Recycling Project&lt;/a&gt; to figure out what hardware was in a computer. For more than a dozen years we’ve been asking volunteers to gather information from the BIOS, or using phoronix-test-suite under our PXE booted Debian Live environment. Volunteers would write the information on quarter page-sized sheets we would attach to each computer. While this was a useful function to help volunteers get to know hardware in a computer, there were a few problems with this method:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

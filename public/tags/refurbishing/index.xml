@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Refurbishing on Chaslinux&#39;s Blog</title>
+    <link>/tags/refurbishing/</link>
+    <description>Recent content in Refurbishing on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Mar 2025 09:19:00 -0400</lastBuildDate>
+    <atom:link href="/tags/refurbishing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steam On Linux Mint 21.3 (Virginia)</title>
+      <link>/posts/steam_on_linux_mint_21_3_virginia/</link>
+      <pubDate>Thu, 13 Mar 2025 09:19:00 -0400</pubDate>
+      <guid>/posts/steam_on_linux_mint_21_3_virginia/</guid>
+      <description>&lt;h3 id=&#34;debian-package-over-flatpak-but-get-it-from-steam&#34;&gt;Debian package over flatpak, but get it from Steam&lt;/h3&gt;
+&lt;p&gt;Moving from Xubuntu to Linux Mint XFCE was not as seemless as I’d hoped it would be. The last time I gave Linux Mint serious consideration was over 13 years ago when the Computer Recycling Project at The Working Centre was looking for a replacement for Ubuntu 10.04 (the next version would include the Unity desktop which wouldn’t run on a lot of our laptops at the time).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

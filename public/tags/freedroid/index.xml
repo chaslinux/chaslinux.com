@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Freedroid on Chaslinux&#39;s Blog</title>
+    <link>/tags/freedroid/</link>
+    <description>Recent content in Freedroid on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 31 May 2024 11:20:47 -0400</lastBuildDate>
+    <atom:link href="/tags/freedroid/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Freedroid - Paradroid (C64) for Linux</title>
+      <link>/posts/freedroid_paradroid_for_linux/</link>
+      <pubDate>Fri, 31 May 2024 11:20:47 -0400</pubDate>
+      <guid>/posts/freedroid_paradroid_for_linux/</guid>
+      <description>&lt;h3 id=&#34;paradroid-has-a-version-for-linux&#34;&gt;Paradroid, has a version for Linux&lt;/h3&gt;
+&lt;p&gt;Growing up in the Commodore 64 era, I’m particularly fond of the games of that age. Games in that era tended to be simpler, but sometimes within that simplicity were some really neat concepts. Paradroid was one of those games that was particularly unique and interesting.&lt;/p&gt;
+&lt;p&gt;There’s a really good look-back at Paradroid on the LemonTube64 Youtube channel here:&lt;/p&gt;
+&lt;p&gt;(&lt;a href=&#34;https://youtu.be/kkEBccMEhXs&#34;&gt;https://youtu.be/kkEBccMEhXs&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Freedroid “classic” is a port of the game to Linux. The website for Freedroid classic might be a bit confusing when you first arrive because the same developers also worked on an isometric 3D-like game they called FreedroidRPG. The web site for both is:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

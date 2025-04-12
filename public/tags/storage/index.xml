@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Storage on Chaslinux&#39;s Blog</title>
+    <link>/tags/storage/</link>
+    <description>Recent content in Storage on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Sep 2024 07:56:18 -0400</lastBuildDate>
+    <atom:link href="/tags/storage/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Our TrueNAS Server</title>
+      <link>/posts/our_truenas_server/</link>
+      <pubDate>Fri, 27 Sep 2024 07:56:18 -0400</pubDate>
+      <guid>/posts/our_truenas_server/</guid>
+      <description>&lt;h3 id=&#34;it-lives-it-dies&#34;&gt;It lives, it dies!&lt;/h3&gt;
+&lt;p&gt;Our new TrueNAS server is up, and all the hardware is working, but not without some hiccups on the way. After taking a lot longer to build than expect, I was so happy the other evening when I posted about the successful Power On Self Test (POST), and the new RAM (32GB) being properly detected. Exhausted at the end of the day I left the drives disconnected and the video card out.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building the NAS - hardware hiccups</title>
+      <link>/posts/building_the_nas/</link>
+      <pubDate>Wed, 25 Sep 2024 08:17:57 -0400</pubDate>
+      <guid>/posts/building_the_nas/</guid>
+      <description>&lt;h3 id=&#34;most-of-the-hardware-is-assembled&#34;&gt;Most of the hardware is assembled&lt;/h3&gt;
+&lt;p&gt;The past few weeks have been extremely busy, so I knew last night would probably be the only time I would get this week to work on the NAS. I’m glad I started building the NAS last night as it took much longer than anticipated. I finally finished the build at 10pm last night (and it’s still not quite complete).&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Intel Core i3 7100 CPU close-up&#34; loading=&#34;lazy&#34; src=&#34;/img/intel_core_i3_7100.webp&#34;&gt;&lt;!-- raw HTML omitted --&gt;Fig 1. I used an Intel Core i3-7100 CPU for lower power consumption&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Dell PowerEdge T110 II Network Attached Storage (NAS) build</title>
+      <link>/posts/dell_poweredge_t110_ii_nas/</link>
+      <pubDate>Sat, 01 Jun 2024 09:38:18 -0400</pubDate>
+      <guid>/posts/dell_poweredge_t110_ii_nas/</guid>
+      <description>&lt;h3 id=&#34;migrating-the-kodi-entertainment-system&#34;&gt;Migrating the KODI entertainment system&lt;/h3&gt;
+&lt;p&gt;On May 5th I mentioned that we’re Running out of space on our media center. In the comments of that post I followed up outlining a plan to buy another 8TB drive (for a total of 3 x 8TB drives) in order to do a RAID Z1 (for 16TB of space). But in order to do that I would need to reformat the drives, which means I also needed a plan to back up our media center data. I hinted at that solution in the comments too: 4 x 3TB drives in a RAID Z1 – which would give me 9TB of space (1 x 3TB is the spare), just enough to back up all the data.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

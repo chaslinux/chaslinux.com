@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Gaming on Chaslinux&#39;s Blog</title>
+    <link>/tags/gaming/</link>
+    <description>Recent content in Gaming on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 13 Mar 2025 09:19:00 -0400</lastBuildDate>
+    <atom:link href="/tags/gaming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Steam On Linux Mint 21.3 (Virginia)</title>
+      <link>/posts/steam_on_linux_mint_21_3_virginia/</link>
+      <pubDate>Thu, 13 Mar 2025 09:19:00 -0400</pubDate>
+      <guid>/posts/steam_on_linux_mint_21_3_virginia/</guid>
+      <description>&lt;h3 id=&#34;debian-package-over-flatpak-but-get-it-from-steam&#34;&gt;Debian package over flatpak, but get it from Steam&lt;/h3&gt;
+&lt;p&gt;Moving from Xubuntu to Linux Mint XFCE was not as seemless as I’d hoped it would be. The last time I gave Linux Mint serious consideration was over 13 years ago when the Computer Recycling Project at The Working Centre was looking for a replacement for Ubuntu 10.04 (the next version would include the Unity desktop which wouldn’t run on a lot of our laptops at the time).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to play Jazz Jackrabbit on Linux</title>
+      <link>/posts/how_to_play_jazz_jackrabbit_on_linux/</link>
+      <pubDate>Fri, 17 Jan 2025 12:13:40 -0400</pubDate>
+      <guid>/posts/how_to_play_jazz_jackrabbit_on_linux/</guid>
+      <description>&lt;h3 id=&#34;jazz-jackrabbit--an-introduction&#34;&gt;Jazz Jackrabbit – an introduction&lt;/h3&gt;
+&lt;p&gt;Back in 1994 the World Wide Web (WWW) was just starting to catch on, mostly via a dial-up connection. Bulletin Board Systems (BBS) were starting to be on the way out, but at the time I was running a bulletin board for a local computer club. One of the attractions of bulletin board systems (besides online games/aka doors, message boards, and chatting) were the extensive “shareware” software collections. If you weren’t going to a computer store to buy software, you were probably calling a bulletin board to download shareware or freeware software. Shareware software became known as “try before you buy” software. In most cases software was fully functional, but limited in some way (for example: a game where you could play the first few levels, but if you wanted more, you had to send the shareware author money for the rest of the software).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Prince of Persia for Linux</title>
+      <link>/posts/prince_of_persia_for_linux/</link>
+      <pubDate>Fri, 31 May 2024 11:47:15 -0400</pubDate>
+      <guid>/posts/prince_of_persia_for_linux/</guid>
+      <description>&lt;h3 id=&#34;prince-of-persia---a-classic-game-for-dos&#34;&gt;Prince of Persia - a classic game for DOS&lt;/h3&gt;
+&lt;p&gt;When I first ran Prince of Persia on PC-DOS I remember thinking, “finally, a DOS game that rivals the fun I had on Commodore 64 games.” I was never very good at the game (and that continues today), but it’s a classic game.&lt;/p&gt;
+&lt;p&gt;The original DOS version has a port for Linux which you can find on github here:&lt;/p&gt;
+&lt;p&gt;(&lt;a href=&#34;https://github.com/NagyD/SDLPoP?tab=readme-ov-file&#34;&gt;https://github.com/NagyD/SDLPoP?tab=readme-ov-file&lt;/a&gt;)&lt;/p&gt;
+&lt;h3 id=&#34;the-simplest-method-to-install-sdlpop-on-ubuntuxubuntu-linux&#34;&gt;The simplest method to install SDLPoP on Ubuntu/Xubuntu Linux&lt;/h3&gt;
+&lt;p&gt;If you’re on Xubuntu, or another Ubuntu-variant, there is a snap for the game (called sdlpop). To install the snap simply open a terminal and type:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Freedroid - Paradroid (C64) for Linux</title>
+      <link>/posts/freedroid_paradroid_for_linux/</link>
+      <pubDate>Fri, 31 May 2024 11:20:47 -0400</pubDate>
+      <guid>/posts/freedroid_paradroid_for_linux/</guid>
+      <description>&lt;h3 id=&#34;paradroid-has-a-version-for-linux&#34;&gt;Paradroid, has a version for Linux&lt;/h3&gt;
+&lt;p&gt;Growing up in the Commodore 64 era, I’m particularly fond of the games of that age. Games in that era tended to be simpler, but sometimes within that simplicity were some really neat concepts. Paradroid was one of those games that was particularly unique and interesting.&lt;/p&gt;
+&lt;p&gt;There’s a really good look-back at Paradroid on the LemonTube64 Youtube channel here:&lt;/p&gt;
+&lt;p&gt;(&lt;a href=&#34;https://youtu.be/kkEBccMEhXs&#34;&gt;https://youtu.be/kkEBccMEhXs&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;Freedroid “classic” is a port of the game to Linux. The website for Freedroid classic might be a bit confusing when you first arrive because the same developers also worked on an isometric 3D-like game they called FreedroidRPG. The web site for both is:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Updating Discord on Xubuntu Linux</title>
+      <link>/posts/updating_discord_on_xubuntu_linux/</link>
+      <pubDate>Thu, 02 Nov 2023 09:28:49 -0400</pubDate>
+      <guid>/posts/updating_discord_on_xubuntu_linux/</guid>
+      <description>&lt;h3 id=&#34;great-and-a-pain&#34;&gt;Great, and a pain&lt;/h3&gt;
+&lt;p&gt;Discord is one of those programs I love to hate. I like Discord because it’s a good way for people to connect with me about Computer Recycling, and I find it really handy for connecting with people about Game Development and Game Jams. But the process for updating Discord on Linux isn’t good. Normally, I update most software on my system by opening a terminal (Windows Key + T) and typing:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Knights of Pen &amp; Paper II</title>
+      <link>/posts/knights_of_pen_and_paper_ii/</link>
+      <pubDate>Tue, 15 Aug 2023 12:25:16 -0400</pubDate>
+      <guid>/posts/knights_of_pen_and_paper_ii/</guid>
+      <description>&lt;h3 id=&#34;a-dice-game-with-a-sense-of-humour&#34;&gt;A dice game with a sense of humour&lt;/h3&gt;
+&lt;p&gt;If games like &lt;a href=&#34;https://store.steampowered.com/app/200710/Torchlight_II/&#34;&gt;Torchlight II&lt;/a&gt;, &lt;a href=&#34;https://diablo3.blizzard.com/en-us/&#34;&gt;Diablo III&lt;/a&gt;, or my favourite - &lt;a href=&#34;https://www.grimdawn.com/&#34;&gt;Grim Dawn&lt;/a&gt; are your thing, &lt;a href=&#34;https://store.steampowered.com/app/310060/Knights_of_Pen_and_Paper_2/&#34;&gt;Knights of Pen &amp;amp; Paper II&lt;/a&gt; will seem like a snooze-fest to you. While Knights has elements of a role playing game, it’s not an “Action” role playing game (ARPG), but more mimics the kind of play you might get from playing Dungeons and Dragons with a game master.&lt;/p&gt;
+&lt;p&gt;Unfortunately the game is NOT multiplayer, so one of the best parts of D&amp;amp;D is missing from Knights of Pen &amp;amp; Paper II, but if you’re okay with playing solo, this might be a fun title for you.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[Fix] Vikings - Wolves of Midgard crashing after kalypso startup screen</title>
+      <link>/posts/fix_vikings_wolves_of_midgard_crashing_after_kalypso_startup_screen/</link>
+      <pubDate>Tue, 30 May 2023 20:25:37 -0400</pubDate>
+      <guid>/posts/fix_vikings_wolves_of_midgard_crashing_after_kalypso_startup_screen/</guid>
+      <description>&lt;h3 id=&#34;vikings--wolves-of-midgard-crashes-after-the-kalypso-video&#34;&gt;Vikings – Wolves of Midgard (crashes after the Kalypso video)&lt;/h3&gt;
+&lt;p&gt;Vikings – Wolves of Midgard is a linear action role playing game (ARPG) that lets you go back and repeat quests several times until you’re overpowered. Recently I’ve tried a number of role playing games only to find they were lacking in graphics, the controls were too jank, or they just required obscene amounts of time to make any progress. I like Vikings – Wolves of Midgard, because I find that despite the fact that the story is almost aways the same, you can complete quests over and over again until you’re overpowered. The controls are not bad, especially compared to some of the games I’ve played lately. Best of all it runs natively under Linux.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Legend of Grimrock - a better Bards Tale III</title>
+      <link>/posts/legend_of_grimrock_a_better_bards_tale_iii/</link>
+      <pubDate>Thu, 18 May 2023 20:38:36 -0400</pubDate>
+      <guid>/posts/legend_of_grimrock_a_better_bards_tale_iii/</guid>
+      <description>&lt;h3 id=&#34;bards-tale-iii--my-introduction-to-3d-like-adventure&#34;&gt;Bards Tale III – my introduction to 3D like adventure&lt;/h3&gt;
+&lt;p&gt;Back in the late 1980’s I worked for Simcoe Computer Consultants at the 400 Market, outside of Barrie, Ontario. The 400 Market was a mixed market of many vendors, one of which was Simcoe Computer Consultants. I spent the weekends manning the company’s booth, selling the odd item, and spreading the word about the company’s computers and services.&lt;/p&gt;
+&lt;p&gt;One weekend Cec, one of the company owners, mentioned that a lead from the market had helped them sell a bunch of computers, and I was welcome to pick a piece of software as a reward. I picked Bard’s Tale III, Thief of Fate, a dungeon crawling game with a 3D-like interface. Bard’s Tale III quickly became one of my favourite games, it mixed D&amp;amp;D elements with a more urgent element where one wrong turn could lead to a face to face encounter with deadly monsters.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Torchlight II for SteamOS and Linux</title>
+      <link>/posts/torchlight_ii_for_steamos_and_linux/</link>
+      <pubDate>Fri, 14 Apr 2023 19:55:27 -0400</pubDate>
+      <guid>/posts/torchlight_ii_for_steamos_and_linux/</guid>
+      <description>&lt;h3 id=&#34;almost-11-years-old-and-still-fun&#34;&gt;Almost 11 years old, and still fun&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://store.steampowered.com/app/200710/Torchlight_II/&#34;&gt;Torchlight II&lt;/a&gt; (opens to Steam page) was released in September of 2012, several months after the release of Diablo III. Max Schaefer and Matt Uelmen, both developers who worked on Diablo and Diablo II, helped form Runic Games, the company behind Torchlight II.&lt;/p&gt;
+&lt;p&gt;While both Torchlight II and Diablo II are considered ARPGs (Action Role Playing Games), Torchlight II feels like it has less linear gameplay. Both games drive you to destroy an end boss, and both have side quests, but Torchlight II is purposefully moddable, and a lot less dark. In Diablo and Diablo II you fight demons, devils, undead, and other demonic monstrosities. In Torchlight II you find yourself pitted against more Dungeons &amp;amp; Dragons variety monsters, Mind Flayers, Werewolves, Bandits, Manticores, and a more mixed variety of monsters.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

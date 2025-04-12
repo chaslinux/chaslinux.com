@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux Mint on Chaslinux&#39;s Blog</title>
+    <link>/tags/linux-mint/</link>
+    <description>Recent content in Linux Mint on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Apr 2025 18:24:58 -0400</lastBuildDate>
+    <atom:link href="/tags/linux-mint/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computer Recycling&#39;s PXE Network Server</title>
+      <link>/posts/computer_recyclings_pxe_network_server/</link>
+      <pubDate>Tue, 01 Apr 2025 18:24:58 -0400</pubDate>
+      <guid>/posts/computer_recyclings_pxe_network_server/</guid>
+      <description>&lt;h3 id=&#34;pxe-network-installation&#34;&gt;PXE network installation&lt;/h3&gt;
+&lt;p&gt;Most Linux distribution web sites describe the process of how to download an &lt;strong&gt;ISO&lt;/strong&gt;, and create a bootable USB key. While USB keys are great if you&amp;rsquo;re working on your own computer, when you need to scale up and install across a number of systems there are more efficient ways of deploying Linux. One of those ways is to network boot, and install from a PXE (Preboot Execution Environment) server.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Steam On Linux Mint 21.3 (Virginia)</title>
+      <link>/posts/steam_on_linux_mint_21_3_virginia/</link>
+      <pubDate>Thu, 13 Mar 2025 09:19:00 -0400</pubDate>
+      <guid>/posts/steam_on_linux_mint_21_3_virginia/</guid>
+      <description>&lt;h3 id=&#34;debian-package-over-flatpak-but-get-it-from-steam&#34;&gt;Debian package over flatpak, but get it from Steam&lt;/h3&gt;
+&lt;p&gt;Moving from Xubuntu to Linux Mint XFCE was not as seemless as I’d hoped it would be. The last time I gave Linux Mint serious consideration was over 13 years ago when the Computer Recycling Project at The Working Centre was looking for a replacement for Ubuntu 10.04 (the next version would include the Unity desktop which wouldn’t run on a lot of our laptops at the time).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lessons learned encoding media under linux</title>
+      <link>/posts/lessons_learned_encoding_media_under_linux/</link>
+      <pubDate>Thu, 23 Jan 2025 11:26:33 -0400</pubDate>
+      <guid>/posts/lessons_learned_encoding_media_under_linux/</guid>
+      <description>&lt;h3 id=&#34;hardware-and-linux-distribution-differences&#34;&gt;Hardware and Linux Distribution Differences&lt;/h3&gt;
+&lt;p&gt;This post covers a bunch of areas of media decoding and encoding that I’ve discovered over a number of years using Debian-based distributions like Xubuntu, and Linux Mint. Primarily I’ll cover some of the differences between Xubuntu and Linux Mint, how various hardware (CPUs and graphics cards) encode video, and some of the “gotchas” when it comes to different methods as they apply to Handbrake (software) and MakeMKV.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>How to play Jazz Jackrabbit on Linux</title>
+      <link>/posts/how_to_play_jazz_jackrabbit_on_linux/</link>
+      <pubDate>Fri, 17 Jan 2025 12:13:40 -0400</pubDate>
+      <guid>/posts/how_to_play_jazz_jackrabbit_on_linux/</guid>
+      <description>&lt;h3 id=&#34;jazz-jackrabbit--an-introduction&#34;&gt;Jazz Jackrabbit – an introduction&lt;/h3&gt;
+&lt;p&gt;Back in 1994 the World Wide Web (WWW) was just starting to catch on, mostly via a dial-up connection. Bulletin Board Systems (BBS) were starting to be on the way out, but at the time I was running a bulletin board for a local computer club. One of the attractions of bulletin board systems (besides online games/aka doors, message boards, and chatting) were the extensive “shareware” software collections. If you weren’t going to a computer store to buy software, you were probably calling a bulletin board to download shareware or freeware software. Shareware software became known as “try before you buy” software. In most cases software was fully functional, but limited in some way (for example: a game where you could play the first few levels, but if you wanted more, you had to send the shareware author money for the rest of the software).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Why command line skills are important - Troubleshooting...</title>
+      <link>/posts/why_command_line_skills_are_important/</link>
+      <pubDate>Thu, 16 Jan 2025 06:41:34 -0400</pubDate>
+      <guid>/posts/why_command_line_skills_are_important/</guid>
+      <description>&lt;h3 id=&#34;introduction&#34;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;Recently I was checking out Youtube videos about a Linux-related program, and I came across a comment in one of the videos that I’ve seen before (I’m paraphrasing this to not identify the video or commenter):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;random comment on a Linux video:&lt;/em&gt; &amp;ldquo;Those commands don’t work. In Windows, you don’t have to write a book to install something. I’m going back to Windows.”&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;The comment isn&amp;rsquo;t a question, but a statement: &lt;code&gt;Linux is difficult, Windows is easier.&lt;/code&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Linux on the Lenovo Thinkstation C20 (MT-M 4265-93u)</title>
+      <link>/posts/linux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u/</link>
+      <pubDate>Tue, 09 Jul 2024 18:38:13 -0400</pubDate>
+      <guid>/posts/linux_on_the_lenovo_thinkstation_c20_mt_m_4265_93u/</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; This is an older post, reposted from the old web site. The project has since mostly switched to Linux Mint XFCE
+versions 21.3 (Virginia) and 22.1 (Xia). We still have Xubuntu 24.04.2 on our PXE server, but only install it on request.
+Our checklist has evolved and we&amp;rsquo;ve separated some steps into other checklists.
+See my &lt;a href=&#34;https://github.com/chaslinux&#34;&gt;github repositories&lt;/a&gt; for more info.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;workstation-class-hardware-at-a-deeply-discounted-price&#34;&gt;Workstation class hardware at a deeply discounted price&lt;/h3&gt;
+&lt;p&gt;Every now and then the &lt;a href=&#34;https://www.theworkingcentre.org/cr/&#34;&gt;Computer Recycling Project&lt;/a&gt; at The Working Centre gets a really interesting piece of hardware donated. As a not-for-profit project, most of our equipment is aimed at people who are lower income. This generally translates into lower prices, even for some equipment others would list for a lot more. But that doesn’t mean the project just wipes the machines, installs Linux, and dumps the equipment on a sales shelf… often equipment requires a little, or a lot more work.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[Fix] OBS Studio records static desktop image, no movement</title>
+      <link>/posts/obs_studio_records_static_desktop_image_no_movement/</link>
+      <pubDate>Wed, 20 Dec 2023 16:18:57 -0400</pubDate>
+      <guid>/posts/obs_studio_records_static_desktop_image_no_movement/</guid>
+      <description>&lt;h3 id=&#34;obs-is-awesome&#34;&gt;OBS is awesome!&lt;/h3&gt;
+&lt;p&gt;Open Broadcasting Software, also known as OBS Studio, is an awesome piece of free and open source software that lets you capture audio and video from a wide variety of sources: screen capture, webcam, audio capture from the system, from an external source, from static images, slide shows, etc.&lt;/p&gt;
+&lt;p&gt;It’s been awhile since I’ve used OBS to capture the desktop of one of the systems at work, an ASUS M51AC desktop with an i7-4770 CPU, 16GB of RAM, and a 256GB SSD. I installed OBS 30.0.1 and started to record a video of the desktop, using the webcam microphone for audio. After a bit of tweaking, adjusting Xubuntu’s microphone sensitivity, I managed to get audio recording correctly so audio levels did not “clip” (go into the red) in OBS.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Fasteroids - An Asteroids-like game for Linux and Windows</title>
+      <link>/posts/fasteroids_an_asteroids_like_game_for_linux_and_windows/</link>
+      <pubDate>Fri, 07 Jul 2023 18:54:33 -0400</pubDate>
+      <guid>/posts/fasteroids_an_asteroids_like_game_for_linux_and_windows/</guid>
+      <description>&lt;h3 id=&#34;reviving-an-old-project&#34;&gt;Reviving an old project&lt;/h3&gt;
+&lt;p&gt;Today I realized that, since redoing this web site, I still haven’t added any information about the game I made back in 2017-2020. Recently I revived Fasteroids, and made some changes to both simplify the game, but also with the idea that the game should be able to scale to 4k in the near future.&lt;/p&gt;
+&lt;p&gt;Before I ramble on more, you can download Fasteroids for Linux or Windows from:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>[Fix] Vikings - Wolves of Midgard crashing after kalypso startup screen</title>
+      <link>/posts/fix_vikings_wolves_of_midgard_crashing_after_kalypso_startup_screen/</link>
+      <pubDate>Tue, 30 May 2023 20:25:37 -0400</pubDate>
+      <guid>/posts/fix_vikings_wolves_of_midgard_crashing_after_kalypso_startup_screen/</guid>
+      <description>&lt;h3 id=&#34;vikings--wolves-of-midgard-crashes-after-the-kalypso-video&#34;&gt;Vikings – Wolves of Midgard (crashes after the Kalypso video)&lt;/h3&gt;
+&lt;p&gt;Vikings – Wolves of Midgard is a linear action role playing game (ARPG) that lets you go back and repeat quests several times until you’re overpowered. Recently I’ve tried a number of role playing games only to find they were lacking in graphics, the controls were too jank, or they just required obscene amounts of time to make any progress. I like Vikings – Wolves of Midgard, because I find that despite the fact that the story is almost aways the same, you can complete quests over and over again until you’re overpowered. The controls are not bad, especially compared to some of the games I’ve played lately. Best of all it runs natively under Linux.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Legend of Grimrock - a better Bards Tale III</title>
+      <link>/posts/legend_of_grimrock_a_better_bards_tale_iii/</link>
+      <pubDate>Thu, 18 May 2023 20:38:36 -0400</pubDate>
+      <guid>/posts/legend_of_grimrock_a_better_bards_tale_iii/</guid>
+      <description>&lt;h3 id=&#34;bards-tale-iii--my-introduction-to-3d-like-adventure&#34;&gt;Bards Tale III – my introduction to 3D like adventure&lt;/h3&gt;
+&lt;p&gt;Back in the late 1980’s I worked for Simcoe Computer Consultants at the 400 Market, outside of Barrie, Ontario. The 400 Market was a mixed market of many vendors, one of which was Simcoe Computer Consultants. I spent the weekends manning the company’s booth, selling the odd item, and spreading the word about the company’s computers and services.&lt;/p&gt;
+&lt;p&gt;One weekend Cec, one of the company owners, mentioned that a lead from the market had helped them sell a bunch of computers, and I was welcome to pick a piece of software as a reward. I picked Bard’s Tale III, Thief of Fate, a dungeon crawling game with a 3D-like interface. Bard’s Tale III quickly became one of my favourite games, it mixed D&amp;amp;D elements with a more urgent element where one wrong turn could lead to a face to face encounter with deadly monsters.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Torchlight II for SteamOS and Linux</title>
+      <link>/posts/torchlight_ii_for_steamos_and_linux/</link>
+      <pubDate>Fri, 14 Apr 2023 19:55:27 -0400</pubDate>
+      <guid>/posts/torchlight_ii_for_steamos_and_linux/</guid>
+      <description>&lt;h3 id=&#34;almost-11-years-old-and-still-fun&#34;&gt;Almost 11 years old, and still fun&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&#34;https://store.steampowered.com/app/200710/Torchlight_II/&#34;&gt;Torchlight II&lt;/a&gt; (opens to Steam page) was released in September of 2012, several months after the release of Diablo III. Max Schaefer and Matt Uelmen, both developers who worked on Diablo and Diablo II, helped form Runic Games, the company behind Torchlight II.&lt;/p&gt;
+&lt;p&gt;While both Torchlight II and Diablo II are considered ARPGs (Action Role Playing Games), Torchlight II feels like it has less linear gameplay. Both games drive you to destroy an end boss, and both have side quests, but Torchlight II is purposefully moddable, and a lot less dark. In Diablo and Diablo II you fight demons, devils, undead, and other demonic monstrosities. In Torchlight II you find yourself pitted against more Dungeons &amp;amp; Dragons variety monsters, Mind Flayers, Werewolves, Bandits, Manticores, and a more mixed variety of monsters.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Hardware detection script for Linux refurbishers</title>
+      <link>/posts/hardware_detection_script_for_linux_refurbishers/</link>
+      <pubDate>Wed, 15 Feb 2023 14:29:08 -0400</pubDate>
+      <guid>/posts/hardware_detection_script_for_linux_refurbishers/</guid>
+      <description>&lt;h3 id=&#34;about-the-script&#34;&gt;About the script&lt;/h3&gt;
+&lt;p&gt;I wrote the hardware.sh BASH script to make it a bit simpler for volunteers at The Working Centre’s &lt;a href=&#34;https://www.theworkingcentre.org/cr/&#34;&gt;Computer Recycling Project&lt;/a&gt; to figure out what hardware was in a computer. For more than a dozen years we’ve been asking volunteers to gather information from the BIOS, or using phoronix-test-suite under our PXE booted Debian Live environment. Volunteers would write the information on quarter page-sized sheets we would attach to each computer. While this was a useful function to help volunteers get to know hardware in a computer, there were a few problems with this method:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

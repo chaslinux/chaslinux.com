@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Kubuntu on Chaslinux&#39;s Blog</title>
+    <link>/tags/kubuntu/</link>
+    <description>Recent content in Kubuntu on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Apr 2025 18:24:58 -0400</lastBuildDate>
+    <atom:link href="/tags/kubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Computer Recycling&#39;s PXE Network Server</title>
+      <link>/posts/computer_recyclings_pxe_network_server/</link>
+      <pubDate>Tue, 01 Apr 2025 18:24:58 -0400</pubDate>
+      <guid>/posts/computer_recyclings_pxe_network_server/</guid>
+      <description>&lt;h3 id=&#34;pxe-network-installation&#34;&gt;PXE network installation&lt;/h3&gt;
+&lt;p&gt;Most Linux distribution web sites describe the process of how to download an &lt;strong&gt;ISO&lt;/strong&gt;, and create a bootable USB key. While USB keys are great if you&amp;rsquo;re working on your own computer, when you need to scale up and install across a number of systems there are more efficient ways of deploying Linux. One of those ways is to network boot, and install from a PXE (Preboot Execution Environment) server.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

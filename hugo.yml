@@ -1,0 +1,36 @@
+baseURL: ""
+languageCode: en-us
+title: Chaslinux's Blog
+theme: ["PaperMod"]
+
+params:
+  cover:
+    linkFullImages: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+
+outputs: 
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+
+
+menus:
+  main:
+  - name: Home
+    url: /
+    weight: 10
+  - name: Categories
+    url: /categories/
+    weight: 20
+  - name: Tags
+    url: /tags/
+    weight: 30
+  - name: Archives
+    url: /archives/
+    weight: 40
+  - name: Search
+    url: ../search/
+    weight: 50

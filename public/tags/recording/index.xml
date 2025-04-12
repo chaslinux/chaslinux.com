@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Recording on Chaslinux&#39;s Blog</title>
+    <link>/tags/recording/</link>
+    <description>Recent content in Recording on Chaslinux&#39;s Blog</description>
+    <generator>Hugo -- 0.145.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Dec 2023 16:18:57 -0400</lastBuildDate>
+    <atom:link href="/tags/recording/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[Fix] OBS Studio records static desktop image, no movement</title>
+      <link>/posts/obs_studio_records_static_desktop_image_no_movement/</link>
+      <pubDate>Wed, 20 Dec 2023 16:18:57 -0400</pubDate>
+      <guid>/posts/obs_studio_records_static_desktop_image_no_movement/</guid>
+      <description>&lt;h3 id=&#34;obs-is-awesome&#34;&gt;OBS is awesome!&lt;/h3&gt;
+&lt;p&gt;Open Broadcasting Software, also known as OBS Studio, is an awesome piece of free and open source software that lets you capture audio and video from a wide variety of sources: screen capture, webcam, audio capture from the system, from an external source, from static images, slide shows, etc.&lt;/p&gt;
+&lt;p&gt;It’s been awhile since I’ve used OBS to capture the desktop of one of the systems at work, an ASUS M51AC desktop with an i7-4770 CPU, 16GB of RAM, and a 256GB SSD. I installed OBS 30.0.1 and started to record a video of the desktop, using the webcam microphone for audio. After a bit of tweaking, adjusting Xubuntu’s microphone sensitivity, I managed to get audio recording correctly so audio levels did not “clip” (go into the red) in OBS.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
